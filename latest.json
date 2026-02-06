@@ -1,0 +1,124 @@
+{
+  "READ_THIS_FIRST": {
+    "instruction_for_ai": "DO NOT calculate totals from individual activities. Use the pre-calculated values in 'summary' and 'weekly_summary' sections below. These are already computed accurately from the API data.",
+    "data_period": "Last 7 days (including today)",
+    "quick_stats": {
+      "total_training_hours": 10.5,
+      "total_activities": 5,
+      "total_tss": 450
+    }
+  },
+  "metadata": {
+    "athlete_id": "REDACTED",
+    "last_updated": "2026-01-20T12:00:00",
+    "data_range_days": 7,
+    "version": "1.0.0"
+  },
+  "summary": {
+    "period_description": "Last 7 days of training (including today)",
+    "note": "Duration calculated from API moving_time field.",
+    "total_duration_decimal_hours": 10.5,
+    "total_activities": 5,
+    "by_activity_type": {
+      "Ride": {
+        "duration_decimal_hours": 4.0,
+        "count": 1,
+        "tss": 180,
+        "distance_km": 95.0
+      },
+      "VirtualRide": {
+        "duration_decimal_hours": 6.5,
+        "count": 4,
+        "tss": 270,
+        "distance_km": 150.0
+      }
+    }
+  },
+  "current_status": {
+    "fitness": {
+      "ctl": 72.5,
+      "atl": 68.3,
+      "tsb": 4.2,
+      "ramp_rate": 3.1
+    },
+    "thresholds": {
+      "ftp": 285,
+      "ftp_indoor": 275,
+      "lthr": 168,
+      "max_hr": 185
+    },
+    "current_metrics": {
+      "weight_kg": 72.5,
+      "resting_hr": 48,
+      "hrv": 65
+    }
+  },
+  "recent_activities": [
+    {
+      "id": "activity_1",
+      "date": "2026-01-20T08:00:00",
+      "type": "VirtualRide",
+      "name": "Sweet Spot Intervals",
+      "duration_hours": 1.5,
+      "distance_km": 42.0,
+      "tss": 85,
+      "intensity_factor": 0.82,
+      "avg_power": 215,
+      "normalized_power": 235,
+      "avg_hr": 142,
+      "max_hr": 165,
+      "avg_cadence": 88,
+      "work_kj": 1150,
+      "variability_index": 1.05,
+      "decoupling": 2.1,
+      "feel": 3,
+      "rpe": 6,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 300,
+          "z2_time": 2400,
+          "z3_time": 1800,
+          "z4_time": 600,
+          "z5_time": 0
+        },
+        "power_zones": {
+          "z1_time": 200,
+          "z2_time": 2000,
+          "z3_time": 2200,
+          "z4_time": 700,
+          "z5_time": 0
+        }
+      }
+    }
+  ],
+  "wellness_data": [
+    {
+      "date": "2026-01-20",
+      "weight_kg": 72.5,
+      "resting_hr": 48,
+      "hrv_rmssd": 65,
+      "sleep_hours": 7.5,
+      "sleep_quality": 80,
+      "fatigue": 3,
+      "soreness": 2
+    }
+  ],
+  "planned_workouts": [
+    {
+      "id": "event_1",
+      "date": "2026-01-21T07:00:00",
+      "name": "Endurance Z2",
+      "type": "WORKOUT",
+      "planned_tss": 75,
+      "duration_hours": 1.5
+    }
+  ],
+  "weekly_summary": {
+    "total_training_hours": 10.5,
+    "total_tss": 450,
+    "activities_count": 5,
+    "avg_hrv": 62,
+    "avg_resting_hr": 49
+  }
+}
+
