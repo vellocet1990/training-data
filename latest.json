@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 3.77,
-      "total_activities": 4,
-      "total_tss": 232
+      "total_training_hours": 4.69,
+      "total_activities": 5,
+      "total_tss": 233
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-07T18:26:05.793357",
+    "last_updated": "2026-02-07T18:59:45.637725",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,23 +19,23 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 3.77,
-    "total_activities": 4,
+    "total_duration_decimal_hours": 4.69,
+    "total_activities": 5,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 3.77,
-        "count": 4,
-        "tss": 232,
-        "distance_km": 92.6
+        "duration_decimal_hours": 4.69,
+        "count": 5,
+        "tss": 233,
+        "distance_km": 107.5
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 18.73,
-      "atl": 27.86,
-      "tsb": -9.13,
-      "ramp_rate": 2.73,
+      "ctl": 18.76,
+      "atl": 27.99,
+      "tsb": -9.23,
+      "ramp_rate": 2.76,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -64,27 +64,27 @@
     "rhr_baseline_28d": 51.1,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.58,
+    "acwr": 1.59,
     "acwr_interpretation": "danger",
     "monotony": 1.0,
     "monotony_interpretation": "normal",
-    "strain": 232.0,
+    "strain": 233.0,
     "stress_tolerance": 2.3,
     "load_recovery_ratio": null,
-    "tss_7d_total": 232.0,
-    "tss_28d_total": 587.0,
+    "tss_7d_total": 233.0,
+    "tss_28d_total": 588.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.25,
-      "z2_hours": 1.14,
+      "z1_hours": 1.27,
+      "z2_hours": 1.15,
       "z3_hours": 0.81,
       "z4_plus_hours": 0.57,
-      "total_hours": 3.77
+      "total_hours": 3.8
     },
-    "grey_zone_percentage": 21.4,
+    "grey_zone_percentage": 21.3,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 15.1,
+    "quality_intensity_percentage": 15.0,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.63,
+    "polarisation_index": 0.64,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "consistency_index": 1.0,
     "consistency_details": {
@@ -130,12 +130,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-07T18:26:05.793272",
+    "calculation_timestamp": "2026-02-07T18:59:45.637639",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
-      "activities_7d": 4,
-      "activities_28d": 11,
+      "activities_7d": 5,
+      "activities_28d": 12,
       "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
@@ -146,6 +146,48 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-02-07T14:45:52",
+      "type": "VirtualRide",
+      "name": "Rad indoor",
+      "duration_hours": 0.92,
+      "distance_km": 14.99,
+      "tss": 1,
+      "intensity_factor": 10.447825,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 132,
+      "max_hr": 157,
+      "avg_cadence": null,
+      "avg_speed": 16.4,
+      "max_speed": 16.4,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 498,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 54,
+          "z2_time": 31,
+          "z3_time": 6,
+          "z4_time": 6,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-02-07T14:45:52",
       "type": "VirtualRide",
       "name": "Zwift - Progressive Shark on Radio Rendezvous in Watopia",
@@ -196,7 +238,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-02-05T19:54:55",
       "type": "VirtualRide",
       "name": "Zwift - Sweet Spot on Loopin Lava in Watopia",
@@ -247,7 +289,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-02-04T19:29:25",
       "type": "VirtualRide",
       "name": "Sweet Spot on Figure 8 in Watopia",
@@ -298,7 +340,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-02-02T16:12:38",
       "type": "VirtualRide",
       "name": "Endurance on R.G.V. in France",
@@ -477,9 +519,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 3.77,
-    "total_tss": 232,
-    "activities_count": 4,
+    "total_training_hours": 4.69,
+    "total_tss": 233,
+    "activities_count": 5,
     "avg_hrv": null,
     "avg_resting_hr": 50.3
   }
