@@ -1,0 +1,424 @@
+{
+  "READ_THIS_FIRST": {
+    "instruction_for_ai": "DO NOT calculate totals from individual activities. Use the pre-calculated values in 'summary', 'weekly_summary', and 'derived_metrics' sections below. These are already computed accurately from the API data.",
+    "data_period": "Last 7 days (including today)",
+    "extended_data_note": "ACWR and baselines calculated from 28 days of data",
+    "quick_stats": {
+      "total_training_hours": 2.86,
+      "total_activities": 3,
+      "total_tss": 160
+    }
+  },
+  "metadata": {
+    "athlete_id": "REDACTED",
+    "last_updated": "2026-02-07T09:02:16.010266",
+    "data_range_days": 7,
+    "extended_range_days": 28,
+    "version": "3.2.0"
+  },
+  "summary": {
+    "period_description": "Last 7 days of training (including today)",
+    "note": "Duration calculated from API moving_time field.",
+    "total_duration_decimal_hours": 2.86,
+    "total_activities": 3,
+    "by_activity_type": {
+      "VirtualRide": {
+        "duration_decimal_hours": 2.86,
+        "count": 3,
+        "tss": 160,
+        "distance_km": 77.6
+      }
+    }
+  },
+  "current_status": {
+    "fitness": {
+      "ctl": 17.04,
+      "atl": 18.28,
+      "tsb": -1.24,
+      "ramp_rate": 1.04,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+    },
+    "thresholds": {
+      "ftp_outdoor": 216,
+      "ftp_indoor": null,
+      "eftp": 207.4,
+      "lthr": 165,
+      "max_hr": 184,
+      "w_prime": 17286,
+      "w_prime_kj": 17.3,
+      "p_max": 765,
+      "vo2max": null
+    },
+    "current_metrics": {
+      "weight_kg": 87.4,
+      "resting_hr": 49,
+      "hrv": null,
+      "sleep_score": null
+    }
+  },
+  "derived_metrics": {
+    "recovery_index": null,
+    "hrv_baseline_7d": null,
+    "rhr_baseline_7d": 50,
+    "hrv_baseline_28d": null,
+    "rhr_baseline_28d": 51.1,
+    "latest_hrv": null,
+    "latest_rhr": null,
+    "acwr": 1.24,
+    "acwr_interpretation": "optimal",
+    "monotony": 0.76,
+    "monotony_interpretation": "normal",
+    "strain": 122.0,
+    "stress_tolerance": 1.6,
+    "load_recovery_ratio": null,
+    "tss_7d_total": 160.0,
+    "tss_28d_total": 515.0,
+    "zone_distribution_7d": {
+      "z1_hours": 0.78,
+      "z2_hours": 1.02,
+      "z3_hours": 0.77,
+      "z4_plus_hours": 0.29,
+      "total_hours": 2.86
+    },
+    "grey_zone_percentage": 26.9,
+    "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
+    "quality_intensity_percentage": 10.3,
+    "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
+    "polarisation_index": 0.63,
+    "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
+    "consistency_index": 1.0,
+    "consistency_details": {
+      "planned_days": 3,
+      "completed_days": 3,
+      "matched_days": 3,
+      "planned_dates": [
+        "2026-02-02",
+        "2026-02-04",
+        "2026-02-05"
+      ],
+      "completed_dates": [
+        "2026-02-02",
+        "2026-02-04",
+        "2026-02-05"
+      ]
+    },
+    "phase_detected": "Indeterminate",
+    "phase_triggers": [
+      "Insufficient data for phase detection"
+    ],
+    "seasonal_context": "Early Base",
+    "benchmark_indoor": {
+      "current_ftp": null,
+      "ftp_8_weeks_ago": null,
+      "benchmark_index": null,
+      "benchmark_percentage": null,
+      "seasonal_expected": null
+    },
+    "benchmark_outdoor": {
+      "current_ftp": 216,
+      "ftp_8_weeks_ago": null,
+      "benchmark_index": null,
+      "benchmark_percentage": null,
+      "seasonal_expected": null
+    },
+    "eftp": 207.4,
+    "w_prime": 17286,
+    "w_prime_kj": 17.3,
+    "p_max": 765,
+    "power_model_source": "wellness.sportInfo",
+    "vo2max": null,
+    "sleep_score": null,
+    "calculation_timestamp": "2026-02-07T09:02:16.010166",
+    "data_quality": {
+      "hrv_data_points": 0,
+      "rhr_data_points": 5,
+      "activities_7d": 3,
+      "activities_28d": 10,
+      "planned_workouts_7d": 3,
+      "ftp_history_days": {
+        "indoor": 0,
+        "outdoor": 0
+      }
+    }
+  },
+  "recent_activities": [
+    {
+      "id": "activity_1",
+      "date": "2026-02-05T19:54:55",
+      "type": "VirtualRide",
+      "name": "Zwift - Sweet Spot on Loopin Lava in Watopia",
+      "duration_hours": 1.1,
+      "distance_km": 26.46,
+      "tss": 72,
+      "intensity_factor": 80.55556,
+      "avg_power": 161,
+      "normalized_power": 174,
+      "avg_hr": 141,
+      "max_hr": 162,
+      "avg_cadence": 89.92663,
+      "avg_speed": 24.0,
+      "max_speed": 60.0,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 638.4,
+      "calories": 609,
+      "carbs_used": 146,
+      "carbs_ingested": null,
+      "variability_index": 1.0807453,
+      "decoupling": -3.6339512,
+      "elevation_m": 365.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 1100,
+          "z2_time": 1018,
+          "z3_time": 1527,
+          "z4_time": 328,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 1124,
+          "z2_time": 598,
+          "z3_time": 1449,
+          "z4_time": 682,
+          "z5_time": 120,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
+      "date": "2026-02-04T19:29:25",
+      "type": "VirtualRide",
+      "name": "Sweet Spot on Figure 8 in Watopia",
+      "duration_hours": 0.67,
+      "distance_km": 19.82,
+      "tss": 42,
+      "intensity_factor": 79.166664,
+      "avg_power": 156,
+      "normalized_power": 171,
+      "avg_hr": 132,
+      "max_hr": 154,
+      "avg_cadence": 89.00719,
+      "avg_speed": 29.8,
+      "max_speed": 66.1,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 373.0,
+      "calories": 356,
+      "carbs_used": 107,
+      "carbs_ingested": null,
+      "variability_index": 1.0961539,
+      "decoupling": 6.0696645,
+      "elevation_m": 137.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 980,
+          "z2_time": 1144,
+          "z3_time": 271,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 730,
+          "z2_time": 405,
+          "z3_time": 1135,
+          "z4_time": 48,
+          "z5_time": 77,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_3",
+      "date": "2026-02-02T16:12:38",
+      "type": "VirtualRide",
+      "name": "Endurance on R.G.V. in France",
+      "duration_hours": 1.09,
+      "distance_km": 31.29,
+      "tss": 46,
+      "intensity_factor": 65.27778,
+      "avg_power": 135,
+      "normalized_power": 141,
+      "avg_hr": 122,
+      "max_hr": 148,
+      "avg_cadence": 91.33828,
+      "avg_speed": 28.7,
+      "max_speed": 46.5,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 532.6,
+      "calories": 508,
+      "carbs_used": 136,
+      "carbs_ingested": null,
+      "variability_index": 1.0444444,
+      "decoupling": 6.552518,
+      "elevation_m": 141.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 3376,
+          "z2_time": 546,
+          "z3_time": 2,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 936,
+          "z2_time": 2668,
+          "z3_time": 186,
+          "z4_time": 134,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    }
+  ],
+  "wellness_data": [
+    {
+      "date": "2026-02-01",
+      "weight_kg": 87.4,
+      "resting_hr": 55,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-02-02",
+      "weight_kg": null,
+      "resting_hr": 47,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": 3.73,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-02-03",
+      "weight_kg": null,
+      "resting_hr": 49,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.98,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-02-04",
+      "weight_kg": null,
+      "resting_hr": 50,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-02-05",
+      "weight_kg": null,
+      "resting_hr": 49,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.05,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-02-06",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-02-07",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    }
+  ],
+  "planned_workouts": [
+    {
+      "id": "event_1",
+      "date": "2026-02-08T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "[Weekly Plan - Build]\nWarmup\n- Hi Vellocet let's build into this Sweet Spot session 12m 40-75% 85rpm\n\nMain Set\n2x\n- Sweet Spot Progressing 10m 88-92% 90rpm\n- High Cadence Surge 1m 105% 105rpm\n- Sweet Spot Finish 4m 92% 90rpm\n- Recovery 5m 50% 85rpm\n\nEndurance Block\n- Aerobic spinning with cadence changes 10m 70% 95rpm\n- Aerobic spinning with cadence changes 10m 65% 80rpm\n\nCooldown\n- Great session Vellocet bring the heart rate down 6m 60-40% 85rpm",
+      "planned_tss": 77,
+      "duration_hours": 0.0
+    }
+  ],
+  "weekly_summary": {
+    "total_training_hours": 2.86,
+    "total_tss": 160,
+    "activities_count": 3,
+    "avg_hrv": null,
+    "avg_resting_hr": 50.0
+  }
+}
