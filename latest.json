@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-08T06:41:32.527435",
+    "last_updated": "2026-02-08T07:27:05.210886",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -51,7 +51,7 @@
     },
     "current_metrics": {
       "weight_kg": 87.4,
-      "resting_hr": 52,
+      "resting_hr": 53,
       "hrv": null,
       "sleep_score": null
     }
@@ -59,9 +59,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 49.4,
+    "rhr_baseline_7d": 50,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.1,
+    "rhr_baseline_28d": 51.6,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.59,
@@ -131,10 +131,10 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-08T06:41:32.527349",
+    "calculation_timestamp": "2026-02-08T07:27:05.210802",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 5,
       "activities_28d": 12,
       "planned_workouts_7d": 5,
@@ -399,7 +399,7 @@
       "resting_hr": 47,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": 3.73,
+      "sleep_hours": 7.32,
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -471,10 +471,10 @@
     {
       "date": "2026-02-07",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 53,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
+      "sleep_hours": 8.26,
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -489,7 +489,7 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
+      "sleep_hours": 8.01,
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -515,6 +515,6 @@
     "total_tss": 233,
     "activities_count": 5,
     "avg_hrv": null,
-    "avg_resting_hr": 49.4
+    "avg_resting_hr": 50.0
   }
 }
