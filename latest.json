@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-07T23:54:02.201783",
+    "last_updated": "2026-02-08T02:00:16.315723",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -32,11 +32,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 18.76,
-      "atl": 27.99,
-      "tsb": -9.23,
-      "ramp_rate": 2.76,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 18.32,
+      "atl": 24.27,
+      "tsb": -5.95,
+      "ramp_rate": 2.69,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 216,
@@ -59,7 +59,7 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 50.3,
+    "rhr_baseline_7d": 49.4,
     "hrv_baseline_28d": null,
     "rhr_baseline_28d": 51.1,
     "latest_hrv": null,
@@ -86,16 +86,17 @@
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 0.64,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": 1.0,
+    "consistency_index": 0.8,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 5,
       "completed_days": 4,
       "matched_days": 4,
       "planned_dates": [
         "2026-02-02",
         "2026-02-04",
         "2026-02-05",
-        "2026-02-07"
+        "2026-02-07",
+        "2026-02-08"
       ],
       "completed_dates": [
         "2026-02-02",
@@ -130,13 +131,13 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-07T23:54:02.201685",
+    "calculation_timestamp": "2026-02-08T02:00:16.315632",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 5,
       "activities_7d": 5,
       "activities_28d": 12,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -393,21 +394,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-02-01",
-      "weight_kg": 87.4,
-      "resting_hr": 55,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-02-02",
       "weight_kg": null,
       "resting_hr": 47,
@@ -496,20 +482,26 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-02-08",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
     {
       "id": "event_1",
-      "date": "2026-02-07T00:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "Name: Super Shark - Phase 2 (3x10 Reps) - Ultra Clean\nDescription: 30/15er Progression. Satz 1: 127%, Satz 2: 130%, Satz 3: 132%. Fokus auf 105 RPM.\nAuthor: Radcoach\n\nWarmup\n- 10m 50% 90rpm\n- Start der Rampe 90^ Puls kontrolliert steigern 3m ramp 70-105% 95rpm\n- Kurze Erholung vor dem ersten Satz 2m 50% 85rpm\n\nMain Set - Satz 1\n10x\n- SATZ 1 RHYTHMUS FINDEN 275 WATT 20^ Dranbleiben 30s 127% 105rpm\n- HARTE PAUSE 140 WATT 5^ Kurbeln! 15s 65% 85rpm\n\nRest\n- Satzpause 1 von 2 120^ Tief atmen 240^ Gleich geht es weiter 5m 45% 85rpm\n\nMain Set - Satz 2\n10x\n- ZWEITER SATZ DRUCK ERHOEHEN 280 WATT 20^ Fokus Technik 30s 130% 105rpm\n- HARTE PAUSE 140 WATT 5^ Sauerstoff hochhalten 15s 65% 85rpm\n\nRest\n- Satzpause 2 von 2 120^ Beine locker 240^ Endspurt vorbereiten 5m 45% 85rpm\n\nMain Set - Satz 3\n10x\n- LETZTER SATZ ALLES GEBEN 285 WATT 20^ Letzte 5 Minuten 30s 132% 105rpm\n- LETZTE HARTE PAUSEN 5^ Gleich geschafft 15s 65% 85rpm\n\nCooldown\n- Der Shark hat geliefert 120^ Exzellente Reize gesetzt 5m 45-35% 80rpm\n",
-      "planned_tss": 71,
-      "duration_hours": 0.0
-    },
-    {
-      "id": "event_2",
       "date": "2026-02-08T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -523,6 +515,6 @@
     "total_tss": 233,
     "activities_count": 5,
     "avg_hrv": null,
-    "avg_resting_hr": 50.3
+    "avg_resting_hr": 49.4
   }
 }
