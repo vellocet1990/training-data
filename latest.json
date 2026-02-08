@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-08T19:01:38.438003",
+    "last_updated": "2026-02-08T19:36:16.977760",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -130,7 +130,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-08T19:01:38.437886",
+    "calculation_timestamp": "2026-02-08T19:36:16.977669",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -456,7 +456,44 @@
       "vo2max": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": "event_1",
+      "date": "2026-02-09T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "[Weekly Plan - Build]\nLower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\n[Duration: ~45 min]",
+      "planned_tss": null,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_2",
+      "date": "2026-02-10T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "[Weekly Plan - Build]\nWarmup\n- Hallo Vellocet, lass uns die Beine heute kontrolliert aufw\u00e4rmen 10m ramp 45-75% 90rpm\n\nMain Set\n- Aktivierung 2m 85% 100rpm\n- Erholung 3m 55% 85rpm\n\n3x\n- Sweet Spot Progressiv 8m 88% 90rpm\n- Kurzer Kick 1m 92% 100rpm\n- Erholung 4m 50% 80rpm\n\nCooldown\n- Saubere Arbeit Vellocet, jetzt locker ausrollen f\u00fcr die Regeneration 4m ramp 55-40% 85rpm",
+      "planned_tss": 56,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_3",
+      "date": "2026-02-14T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "[Weekly Plan - Build]\nWarmup\n- Hallo Vellocet, lass uns heute kontrolliert an die Schwelle gehen 10m ramp 40-75% 85rpm\n\nMain Set\n- Tempo Block 8m 82% 95rpm\n- Recovery 2m 50%\n\n3x\n- Sweet Spot Steigerung 10m 88%\n- Endspurt 1m 105%\n- Erholung 3m 55% 80rpm\n\nCooldown\n- Saubere Arbeit Vellocet, jetzt locker ausfahren 6m ramp 55-40%",
+      "planned_tss": 72,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_4",
+      "date": "2026-02-15T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "[Weekly Plan - Build]\nWarmup\n- Hallo Vellocet, lass uns locker in diese Tempo-Einheit starten 10m ramp 40-70% 85rpm\n\nMain Set\n- Tempo Block 1 12m 72% 95rpm\n- Recovery 3m 50% 85rpm\n- Tempo Block 2 mit Kraftfokus 12m 78% 75rpm\n- Recovery 3m 50% 85rpm\n- Tempo Block 3 mit Sprints 2x\n- Tempo 5m 75% 90rpm\n- Kurzer Sprint 30s 105% 100rpm\n- Recovery 1m 50%\n\nCooldown\n- Super gemacht Vellocet, jetzt locker ausfahren 5m ramp 60-40% 85rpm",
+      "planned_tss": 40,
+      "duration_hours": 0.0
+    }
+  ],
   "weekly_summary": {
     "total_training_hours": 3.77,
     "total_tss": 232,
