@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 2.02,
-      "total_activities": 2,
-      "total_tss": 144
+      "total_training_hours": 0.91,
+      "total_activities": 1,
+      "total_tss": 72
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-11T23:46:02.302098",
+    "last_updated": "2026-02-12T01:43:14.221673",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,34 +19,34 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 2.02,
-    "total_activities": 2,
+    "total_duration_decimal_hours": 0.91,
+    "total_activities": 1,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 2.02,
-        "count": 2,
-        "tss": 144,
-        "distance_km": 41.5
+        "duration_decimal_hours": 0.91,
+        "count": 1,
+        "tss": 72,
+        "distance_km": 15.0
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 17.03,
-      "atl": 15.73,
-      "tsb": 1.3,
-      "ramp_rate": 0.47,
+      "ctl": 16.63,
+      "atl": 13.64,
+      "tsb": 2.99,
+      "ramp_rate": -1.24,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 216,
       "ftp_indoor": null,
-      "eftp": 207.4,
+      "eftp": 207.2,
       "lthr": 165,
       "max_hr": 184,
-      "w_prime": 17286,
+      "w_prime": 17269,
       "w_prime_kj": 17.3,
-      "p_max": 765,
+      "p_max": 764,
       "vo2max": null
     },
     "current_metrics": {
@@ -59,50 +59,48 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 50.8,
+    "rhr_baseline_7d": 51.2,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.1,
+    "rhr_baseline_28d": 51.2,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.05,
-    "acwr_interpretation": "optimal",
-    "monotony": 0.59,
+    "acwr": 0.53,
+    "acwr_interpretation": "undertraining",
+    "monotony": 0.38,
     "monotony_interpretation": "normal",
-    "strain": 85.0,
-    "stress_tolerance": 1.4,
+    "strain": 27.0,
+    "stress_tolerance": 0.7,
     "load_recovery_ratio": null,
-    "tss_7d_total": 144.0,
+    "tss_7d_total": 72.0,
     "tss_28d_total": 547.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.79,
-      "z2_hours": 0.29,
-      "z3_hours": 0.44,
-      "z4_plus_hours": 0.5,
-      "total_hours": 2.02
+      "z1_hours": 0.48,
+      "z2_hours": 0.12,
+      "z3_hours": 0.04,
+      "z4_plus_hours": 0.28,
+      "total_hours": 0.91
     },
-    "grey_zone_percentage": 21.8,
+    "grey_zone_percentage": 4.2,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 24.7,
+    "quality_intensity_percentage": 30.1,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.53,
+    "polarisation_index": 0.66,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 2,
-      "completed_days": 2,
-      "matched_days": 2,
+      "planned_days": 1,
+      "completed_days": 1,
+      "matched_days": 1,
       "planned_dates": [
-        "2026-02-05",
         "2026-02-07"
       ],
       "completed_dates": [
-        "2026-02-05",
         "2026-02-07"
       ]
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 1.3 positive",
+      "TSB 2.99 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Early Base",
@@ -120,20 +118,20 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 207.4,
-    "w_prime": 17286,
+    "eftp": 207.2,
+    "w_prime": 17269,
     "w_prime_kj": 17.3,
-    "p_max": 765,
+    "p_max": 764,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-11T23:46:02.301999",
+    "calculation_timestamp": "2026-02-12T01:43:14.221589",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
-      "activities_7d": 2,
+      "rhr_data_points": 5,
+      "activities_7d": 1,
       "activities_28d": 10,
-      "planned_workouts_7d": 2,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -191,75 +189,9 @@
           "z7_time": 0
         }
       }
-    },
-    {
-      "id": "activity_2",
-      "date": "2026-02-05T19:54:55",
-      "type": "VirtualRide",
-      "name": "Zwift - Sweet Spot on Loopin Lava in Watopia",
-      "duration_hours": 1.1,
-      "distance_km": 26.46,
-      "tss": 72,
-      "intensity_factor": 80.55556,
-      "avg_power": 161,
-      "normalized_power": 174,
-      "avg_hr": 141,
-      "max_hr": 162,
-      "avg_cadence": 89.92663,
-      "avg_speed": 24.0,
-      "max_speed": 60.0,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": 638.4,
-      "calories": 609,
-      "carbs_used": 146,
-      "carbs_ingested": null,
-      "variability_index": 1.0807453,
-      "decoupling": -3.6339512,
-      "elevation_m": 365.0,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 1100,
-          "z2_time": 1018,
-          "z3_time": 1527,
-          "z4_time": 328,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        },
-        "power_zones": {
-          "z1_time": 1124,
-          "z2_time": 598,
-          "z3_time": 1449,
-          "z4_time": 682,
-          "z5_time": 120,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      }
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-02-05",
-      "weight_kg": null,
-      "resting_hr": 49,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": 7.05,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-02-06",
       "weight_kg": null,
@@ -349,6 +281,21 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-02-12",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
@@ -372,10 +319,10 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 2.02,
-    "total_tss": 144,
-    "activities_count": 2,
+    "total_training_hours": 0.91,
+    "total_tss": 72,
+    "activities_count": 1,
     "avg_hrv": null,
-    "avg_resting_hr": 50.8
+    "avg_resting_hr": 51.2
   }
 }
