@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 1.69,
-      "total_activities": 2,
-      "total_tss": 141
+      "total_training_hours": 0.78,
+      "total_activities": 1,
+      "total_tss": 69
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-13T23:44:25.611556",
+    "last_updated": "2026-02-14T00:01:18.269225",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,24 +19,24 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 1.69,
-    "total_activities": 2,
+    "total_duration_decimal_hours": 0.78,
+    "total_activities": 1,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 1.69,
-        "count": 2,
-        "tss": 141,
-        "distance_km": 38.0
+        "duration_decimal_hours": 0.78,
+        "count": 1,
+        "tss": 69,
+        "distance_km": 23.1
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 17.86,
-      "atl": 21.01,
-      "tsb": -3.15,
-      "ramp_rate": 0.41,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 17.44,
+      "atl": 18.21,
+      "tsb": -0.77,
+      "ramp_rate": 0.4,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 216,
@@ -59,50 +59,48 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 51,
+    "rhr_baseline_7d": 50.5,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.1,
+    "rhr_baseline_28d": 51.0,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.01,
-    "acwr_interpretation": "optimal",
-    "monotony": 0.59,
+    "acwr": 0.5,
+    "acwr_interpretation": "undertraining",
+    "monotony": 0.38,
     "monotony_interpretation": "normal",
-    "strain": 83.0,
-    "stress_tolerance": 1.4,
+    "strain": 26.0,
+    "stress_tolerance": 0.7,
     "load_recovery_ratio": null,
-    "tss_7d_total": 141.0,
+    "tss_7d_total": 69.0,
     "tss_28d_total": 557.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.53,
-      "z2_hours": 0.26,
-      "z3_hours": 0.33,
-      "z4_plus_hours": 0.58,
-      "total_hours": 1.69
+      "z1_hours": 0.05,
+      "z2_hours": 0.14,
+      "z3_hours": 0.29,
+      "z4_plus_hours": 0.3,
+      "total_hours": 0.78
     },
-    "grey_zone_percentage": 19.3,
+    "grey_zone_percentage": 37.2,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 34.2,
+    "quality_intensity_percentage": 38.9,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.47,
+    "polarisation_index": 0.24,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": 1.0,
+    "consistency_index": 0.0,
     "consistency_details": {
       "planned_days": 1,
-      "completed_days": 2,
-      "matched_days": 1,
+      "completed_days": 1,
+      "matched_days": 0,
       "planned_dates": [
-        "2026-02-07"
+        "2026-02-14"
       ],
       "completed_dates": [
-        "2026-02-07",
         "2026-02-13"
       ]
     },
-    "phase_detected": "Peak",
+    "phase_detected": "Indeterminate",
     "phase_triggers": [
-      "ACWR 1.01 >= 1.0",
-      "Quality Intensity 34.2% > 20%"
+      "Insufficient data for phase detection"
     ],
     "seasonal_context": "Early Base",
     "benchmark_indoor": {
@@ -126,11 +124,11 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-13T23:44:25.611449",
+    "calculation_timestamp": "2026-02-14T00:01:18.269133",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
-      "activities_7d": 2,
+      "rhr_data_points": 4,
+      "activities_7d": 1,
       "activities_28d": 10,
       "planned_workouts_7d": 1,
       "ftp_history_days": {
@@ -190,75 +188,9 @@
           "z7_time": 73
         }
       }
-    },
-    {
-      "id": "activity_2",
-      "date": "2026-02-07T14:45:52",
-      "type": "VirtualRide",
-      "name": "Zwift - Progressive Shark on Radio Rendezvous in Watopia",
-      "duration_hours": 0.91,
-      "distance_km": 14.99,
-      "tss": 72,
-      "intensity_factor": 88.888885,
-      "avg_power": 158,
-      "normalized_power": 192,
-      "avg_hr": 139,
-      "max_hr": 171,
-      "avg_cadence": 91.732704,
-      "avg_speed": 16.3,
-      "max_speed": 79.6,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": 522.4,
-      "calories": 498,
-      "carbs_used": 167,
-      "carbs_ingested": null,
-      "variability_index": 1.2151898,
-      "decoupling": 8.0303955,
-      "elevation_m": 408.0,
-      "feel": 2,
-      "rpe": 8,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 1337,
-          "z2_time": 536,
-          "z3_time": 334,
-          "z4_time": 787,
-          "z5_time": 241,
-          "z6_time": 57,
-          "z7_time": 0
-        },
-        "power_zones": {
-          "z1_time": 1726,
-          "z2_time": 438,
-          "z3_time": 137,
-          "z4_time": 136,
-          "z5_time": 64,
-          "z6_time": 791,
-          "z7_time": 0
-        }
-      }
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-02-07",
-      "weight_kg": null,
-      "resting_hr": 53,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": 8.26,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-02-08",
       "weight_kg": null,
@@ -348,6 +280,21 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-02-14",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
@@ -371,10 +318,10 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 1.69,
-    "total_tss": 141,
-    "activities_count": 2,
+    "total_training_hours": 0.78,
+    "total_tss": 69,
+    "activities_count": 1,
     "avg_hrv": null,
-    "avg_resting_hr": 51.0
+    "avg_resting_hr": 50.5
   }
 }
