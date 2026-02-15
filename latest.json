@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-14T23:45:27.937668",
+    "last_updated": "2026-02-15T01:44:54.723872",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -32,10 +32,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 17.44,
-      "atl": 18.21,
-      "tsb": -0.77,
-      "ramp_rate": 0.4,
+      "ctl": 18.69,
+      "atl": 24.1,
+      "tsb": -5.41,
+      "ramp_rate": 0.39,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -59,12 +59,12 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 50,
+    "rhr_baseline_7d": 48.8,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 50.9,
+    "rhr_baseline_28d": 51.1,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.5,
+    "acwr": 0.55,
     "acwr_interpretation": "undertraining",
     "monotony": 0.38,
     "monotony_interpretation": "normal",
@@ -72,7 +72,7 @@
     "stress_tolerance": 0.7,
     "load_recovery_ratio": null,
     "tss_7d_total": 69.0,
-    "tss_28d_total": 557.0,
+    "tss_28d_total": 503.0,
     "zone_distribution_7d": {
       "z1_hours": 0.05,
       "z2_hours": 0.14,
@@ -88,11 +88,12 @@
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 1,
       "matched_days": 0,
       "planned_dates": [
-        "2026-02-14"
+        "2026-02-14",
+        "2026-02-15"
       ],
       "completed_dates": [
         "2026-02-13"
@@ -124,13 +125,13 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-14T23:45:27.937581",
+    "calculation_timestamp": "2026-02-15T01:44:54.723776",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 4,
       "activities_7d": 2,
-      "activities_28d": 11,
-      "planned_workouts_7d": 1,
+      "activities_28d": 10,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -234,21 +235,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-02-08",
-      "weight_kg": null,
-      "resting_hr": 55,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": 8.01,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-02-09",
       "weight_kg": null,
       "resting_hr": 48,
@@ -337,20 +323,26 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-02-15",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
     {
       "id": "event_1",
-      "date": "2026-02-14T09:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "[Weekly Plan - Build]\nWarmup\n- Hallo Vellocet, lass uns heute kontrolliert an die Schwelle gehen 10m ramp 40-75% 85rpm\n\nMain Set\n- Tempo Block 8m 82% 95rpm\n- Recovery 2m 50%\n\n3x\n- Sweet Spot Steigerung 10m 88%\n- Endspurt 1m 105%\n- Erholung 3m 55% 80rpm\n\nCooldown\n- Saubere Arbeit Vellocet, jetzt locker ausfahren 6m ramp 55-40%",
-      "planned_tss": 72,
-      "duration_hours": 0.0
-    },
-    {
-      "id": "event_2",
       "date": "2026-02-15T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -364,6 +356,6 @@
     "total_tss": 69,
     "activities_count": 2,
     "avg_hrv": null,
-    "avg_resting_hr": 50.0
+    "avg_resting_hr": 48.8
   }
 }
