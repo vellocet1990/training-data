@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-15T08:26:31.968891",
+    "last_updated": "2026-02-15T08:57:23.732917",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -32,10 +32,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 19.48,
-      "atl": 29.63,
-      "tsb": -10.15,
-      "ramp_rate": 1.19,
+      "ctl": 18.54,
+      "atl": 24.31,
+      "tsb": -5.77,
+      "ramp_rate": 0.25,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -51,7 +51,7 @@
     },
     "current_metrics": {
       "weight_kg": 86.4,
-      "resting_hr": 48,
+      "resting_hr": 52,
       "hrv": null,
       "sleep_score": null
     }
@@ -59,7 +59,7 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 48.8,
+    "rhr_baseline_7d": 49.4,
     "hrv_baseline_28d": null,
     "rhr_baseline_28d": 51.1,
     "latest_hrv": null,
@@ -86,19 +86,12 @@
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 0.33,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": 0.5,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 2,
+      "planned_days": 0,
       "completed_days": 2,
-      "matched_days": 1,
-      "planned_dates": [
-        "2026-02-14",
-        "2026-02-15"
-      ],
-      "completed_dates": [
-        "2026-02-13",
-        "2026-02-15"
-      ]
+      "matched_days": 0,
+      "note": "No planned workouts in period"
     },
     "phase_detected": "Base",
     "phase_triggers": [
@@ -126,13 +119,13 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-15T08:26:31.968805",
+    "calculation_timestamp": "2026-02-15T08:57:23.732830",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 4,
+      "rhr_data_points": 5,
       "activities_7d": 3,
       "activities_28d": 11,
-      "planned_workouts_7d": 2,
+      "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -364,10 +357,10 @@
     {
       "date": "2026-02-14",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 52,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
+      "sleep_hours": 7.48,
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -392,22 +385,12 @@
       "vo2max": null
     }
   ],
-  "planned_workouts": [
-    {
-      "id": "event_1",
-      "date": "2026-02-15T09:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "[Weekly Plan - Build]\nWarmup\n- Hallo Vellocet, lass uns locker in diese Tempo-Einheit starten 10m ramp 40-70% 85rpm\n\nMain Set\n- Tempo Block 1 12m 72% 95rpm\n- Recovery 3m 50% 85rpm\n- Tempo Block 2 mit Kraftfokus 12m 78% 75rpm\n- Recovery 3m 50% 85rpm\n- Tempo Block 3 mit Sprints 2x\n- Tempo 5m 75% 90rpm\n- Kurzer Sprint 30s 105% 100rpm\n- Recovery 1m 50%\n\nCooldown\n- Super gemacht Vellocet, jetzt locker ausfahren 5m ramp 60-40% 85rpm",
-      "planned_tss": 40,
-      "duration_hours": 0.0
-    }
-  ],
+  "planned_workouts": [],
   "weekly_summary": {
     "total_training_hours": 2.35,
     "total_tss": 133,
     "activities_count": 3,
     "avg_hrv": null,
-    "avg_resting_hr": 48.8
+    "avg_resting_hr": 49.4
   }
 }
