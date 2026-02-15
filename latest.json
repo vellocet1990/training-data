@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-15T19:01:18.427839",
+    "last_updated": "2026-02-15T19:36:43.859846",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -119,7 +119,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-15T19:01:18.427754",
+    "calculation_timestamp": "2026-02-15T19:36:43.859758",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -427,7 +427,44 @@
       "vo2max": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": "event_1",
+      "date": "2026-02-16T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build]",
+      "planned_tss": null,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_2",
+      "date": "2026-02-17T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- Hi Vellocet, lass uns langsam starten 9m ramp 40-65%\n\nMain Set SS + Surges\n- 4x\n- Sweet Spot 5m 75%\n- Z5 Surge 1m 105%\n- Recovery 3m 55%\n\nCooldown\n- Gut gemacht Vellocet, bring es runter 6m ramp 65-40%\n\n[Weekly Plan - Build]",
+      "planned_tss": 17,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_3",
+      "date": "2026-02-21T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Main Set\n- Hi Vellocet, lass uns langsam starten 9m ramp 40-65%\n- Fartlek 5m 70%\n- Erholung 2m 50%\n- Fartlek 4m 80%\n- Erholung 2m 50%\n- Fartlek 3m 90%\n- Erholung 2m 50%\n- Fartlek 2m 95%\n- Erholung 2m 50%\n- Fartlek 1m 100%\n- Erholung 2m 50%\n- Gut gemacht Vellocet, bring es runter 6m ramp 55-40%\n\n[Weekly Plan - Build]",
+      "planned_tss": 31,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_4",
+      "date": "2026-02-22T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- Hallo Vellocet, lass uns langsam anfangen 9m ramp 40-65%\n\nMain Set\n- 4x\n- Sweet Spot 8m 88%\n- Recovery 3m 55%\n\nCooldown\n- Gut gemacht Vellocet, bringe dich runter 6m ramp 65-40%\n\n[Weekly Plan - Build]",
+      "planned_tss": 21,
+      "duration_hours": 0.0
+    }
+  ],
   "weekly_summary": {
     "total_training_hours": 3.14,
     "total_tss": 134,
