@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-17T05:36:36.117921",
+    "last_updated": "2026-02-17T06:37:32.279821",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -133,7 +133,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-17T05:36:36.117835",
+    "calculation_timestamp": "2026-02-17T06:37:32.279734",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
@@ -489,17 +489,17 @@
       "date": "2026-02-17T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "Warmup\n- Hi Vellocet, lass uns langsam starten 9m ramp 40-65%\n\nMain Set SS + Surges\n- 4x\n- Sweet Spot 5m 75%\n- Z5 Surge 1m 105%\n- Recovery 3m 55%\n\nCooldown\n- Gut gemacht Vellocet, bring es runter 6m ramp 65-40%\n\n[Weekly Plan - Build]",
-      "planned_tss": 17,
+      "description": "Warmup\n- Hi Vellocet, lass uns langsam starten 9m ramp 40-70% 85rpm\n\nMain Set\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n\nCooldown\n- Gut gemacht Vellocet, bring es runter 6m ramp 65-40%\n\n[Weekly Plan - Build]",
+      "planned_tss": 83,
       "duration_hours": 0.0
     },
     {
       "id": "event_2",
-      "date": "2026-02-21T09:00:00",
+      "date": "2026-02-19T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "Main Set\n- Hi Vellocet, lass uns langsam starten 9m ramp 40-65%\n- Fartlek 5m 70%\n- Erholung 2m 50%\n- Fartlek 4m 80%\n- Erholung 2m 50%\n- Fartlek 3m 90%\n- Erholung 2m 50%\n- Fartlek 2m 95%\n- Erholung 2m 50%\n- Fartlek 1m 100%\n- Erholung 2m 50%\n- Gut gemacht Vellocet, bring es runter 6m ramp 55-40%\n\n[Weekly Plan - Build]",
-      "planned_tss": 31,
+      "description": "Warmup\n- 9m ramp 0-75%\n\nMain Set\n6x\n- VO2max 3m ramp 106-120%\n- Recovery 3m 55%\n\nRecovery\n- VO2max 7 3m ramp 106-120%\n\nCooldown\n- 6m ramp 56-0%\n\n[Weekly Plan - Build]",
+      "planned_tss": 72,
       "duration_hours": 0.0
     },
     {
@@ -507,8 +507,8 @@
       "date": "2026-02-22T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "Warmup\n- Hallo Vellocet, lass uns langsam anfangen 9m ramp 40-65%\n\nMain Set\n- 4x\n- Sweet Spot 8m 88%\n- Recovery 3m 55%\n\nCooldown\n- Gut gemacht Vellocet, bringe dich runter 6m ramp 65-40%\n\n[Weekly Plan - Build]",
-      "planned_tss": 21,
+      "description": "Main Set\n- Hallo Vellocet, lass uns langsam starten 9m ramp 40-65%\n- Leichte Anstrengung 5m 70%\n- Hart 1m 120%\n- Erholung 2m 50%\n- Hart 2m 110%\n- Erholung 3m 50%\n- Hart 1m 125%\n- Erholung 2m 50%\n- Hart 3m 115%\n- Erholung 4m 50%\n- Hart 2m 120%\n- Erholung 3m 50%\n- Gut gemacht Vellocet, bring es runter 6m ramp 65-40%\n\n[Weekly Plan - Build]",
+      "planned_tss": 47,
       "duration_hours": 0.0
     }
   ],
