@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-17T23:52:36.185554",
+    "last_updated": "2026-02-18T01:42:56.046109",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -38,11 +38,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 17.7,
-      "atl": 22.17,
-      "tsb": -4.47,
-      "ramp_rate": 0.26,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 19.19,
+      "atl": 28.8,
+      "tsb": -9.61,
+      "ramp_rate": 2.16,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 216,
@@ -67,7 +67,7 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": 50.4,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.2,
+    "rhr_baseline_28d": 51.0,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.22,
@@ -133,7 +133,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-17T23:52:36.185468",
+    "calculation_timestamp": "2026-02-18T01:42:56.046014",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -378,21 +378,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-02-11",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-02-12",
       "weight_kg": null,
       "resting_hr": 51,
@@ -481,20 +466,26 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-02-18",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
     {
       "id": "event_1",
-      "date": "2026-02-17T09:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "Warmup\n- Hi Vellocet, lass uns langsam starten 9m ramp 40-70% 85rpm\n\nMain Set\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n\nCooldown\n- Gut gemacht Vellocet, bring es runter 6m ramp 65-40%\n\n[Weekly Plan - Build]",
-      "planned_tss": 83,
-      "duration_hours": 0.0
-    },
-    {
-      "id": "event_2",
       "date": "2026-02-19T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -503,7 +494,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_3",
+      "id": "event_2",
       "date": "2026-02-22T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
