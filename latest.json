@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-18T17:19:19.599480",
+    "last_updated": "2026-02-18T18:06:32.622633",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -42,7 +42,7 @@
       "atl": 19.22,
       "tsb": -1.94,
       "ramp_rate": 0.25,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 216,
@@ -94,12 +94,11 @@
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 2,
+      "planned_days": 1,
       "completed_days": 2,
       "matched_days": 0,
       "planned_dates": [
-        "2026-02-16",
-        "2026-02-17"
+        "2026-02-18"
       ],
       "completed_dates": [
         "2026-02-13",
@@ -133,13 +132,13 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-18T17:19:19.599389",
+    "calculation_timestamp": "2026-02-18T18:06:32.622547",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
       "activities_7d": 5,
       "activities_28d": 11,
-      "planned_workouts_7d": 2,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -486,6 +485,15 @@
   "planned_workouts": [
     {
       "id": "event_1",
+      "date": "2026-02-18T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- Hi Vellocet, lass uns langsam starten 9m ramp 40-70% 85rpm\n\nMain Set\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n\nCooldown\n- Gut gemacht Vellocet, bring es runter 6m ramp 65-40%\n\n[Weekly Plan - Build]",
+      "planned_tss": 83,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_2",
       "date": "2026-02-19T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -494,7 +502,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_2",
+      "id": "event_3",
       "date": "2026-02-22T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
