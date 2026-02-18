@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-18T14:03:50.319042",
+    "last_updated": "2026-02-18T15:03:05.396908",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -38,10 +38,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 19.19,
-      "atl": 28.8,
-      "tsb": -9.61,
-      "ramp_rate": 2.16,
+      "ctl": 17.28,
+      "atl": 19.22,
+      "tsb": -1.94,
+      "ramp_rate": 0.25,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -133,7 +133,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-18T14:03:50.318948",
+    "calculation_timestamp": "2026-02-18T15:03:05.396812",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -489,8 +489,8 @@
       "date": "2026-02-19T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "Warmup\n- 9m ramp 0-75%\n\nMain Set\n6x\n- VO2max 3m ramp 106-120%\n- Recovery 3m 55%\n\nRecovery\n- VO2max 7 3m ramp 106-120%\n\nCooldown\n- 6m ramp 56-0%\n\n[Weekly Plan - Build]",
-      "planned_tss": 72,
+      "description": "Warmup\n- 6m ramp 0-75%\n\nMain Set\n- Endurance 32m ramp 56-75%\n\nCooldown\n- 4m ramp 56-0%\n\n[Weekly Plan - Build]",
+      "planned_tss": 28,
       "duration_hours": 0.0
     },
     {
@@ -498,8 +498,8 @@
       "date": "2026-02-22T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "Main Set\n- Hallo Vellocet, lass uns langsam starten 9m ramp 40-65%\n- Leichte Anstrengung 5m 70%\n- Hart 1m 120%\n- Erholung 2m 50%\n- Hart 2m 110%\n- Erholung 3m 50%\n- Hart 1m 125%\n- Erholung 2m 50%\n- Hart 3m 115%\n- Erholung 4m 50%\n- Hart 2m 120%\n- Erholung 3m 50%\n- Gut gemacht Vellocet, bring es runter 6m ramp 65-40%\n\n[Weekly Plan - Build]",
-      "planned_tss": 47,
+      "description": "Warmup\n- Hi Vellocet, lass uns langsam starten 6m ramp 40-65% 80rpm\n\nMain Set\n- Z2 Ausdauer mit Tempo 10m 65% 85rpm\n- Z2 Ausdauer mit Tempo 10m 65% 90rpm\n- Z2 Ausdauer mit Tempo 10m 65% 85rpm\n- Z2 Ausdauer mit Tempo 10m 65% 90rpm\n\nCooldown\n- Gut gemacht Vellocet, bring es langsam runter 6m ramp 60-40% 75rpm\n\n[Weekly Plan - Build]",
+      "planned_tss": 34,
       "duration_hours": 0.0
     }
   ],
