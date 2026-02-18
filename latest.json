@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-18T15:03:05.396908",
+    "last_updated": "2026-02-18T16:07:14.321205",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -133,7 +133,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-18T15:03:05.396812",
+    "calculation_timestamp": "2026-02-18T16:07:14.321120",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -498,8 +498,8 @@
       "date": "2026-02-22T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "Warmup\n- Hi Vellocet, lass uns langsam starten 6m ramp 40-65% 80rpm\n\nMain Set\n- Z2 Ausdauer mit Tempo 10m 65% 85rpm\n- Z2 Ausdauer mit Tempo 10m 65% 90rpm\n- Z2 Ausdauer mit Tempo 10m 65% 85rpm\n- Z2 Ausdauer mit Tempo 10m 65% 90rpm\n\nCooldown\n- Gut gemacht Vellocet, bring es langsam runter 6m ramp 60-40% 75rpm\n\n[Weekly Plan - Build]",
-      "planned_tss": 34,
+      "description": "Warmup\n- Hallo Vellocet, lass uns die Beine heute locker in Schwung bringen 6m ramp 40-70% 85rpm\n\nMain Set\n- Grundlagen Ausdauer 8m 65% 90rpm\n- Tempo Pickup 30s 82% 100rpm\n- Kraft Ausdauer Block 5m 70% 65rpm\n- Grundlagen Ausdauer 8m 65% 90rpm\n- Tempo Pickup 30s 82% 100rpm\n- Hohe Trittfrequenz 5m 70% 105rpm\n- Grundlagen Ausdauer 5m 60% 90rpm\n\nCooldown\n- Saubere Arbeit Vellocet, jetzt locker ausrollen und regenerieren 4m ramp 55-40% 85rpm\n\n[Weekly Plan - Build]",
+      "planned_tss": 29,
       "duration_hours": 0.0
     }
   ],
