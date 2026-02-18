@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 4.72,
-      "total_activities": 6,
-      "total_tss": 224
+      "total_training_hours": 5.24,
+      "total_activities": 8,
+      "total_tss": 246
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-18T19:13:40.910902",
+    "last_updated": "2026-02-18T19:56:12.086258",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,14 +19,14 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 4.72,
-    "total_activities": 6,
+    "total_duration_decimal_hours": 5.24,
+    "total_activities": 8,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 3.76,
-        "count": 5,
-        "tss": 191,
-        "distance_km": 108.4
+        "duration_decimal_hours": 4.28,
+        "count": 7,
+        "tss": 213,
+        "distance_km": 122.1
       },
       "Workout": {
         "duration_decimal_hours": 0.96,
@@ -38,10 +38,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 18.62,
-      "atl": 26.81,
-      "tsb": -8.19,
-      "ramp_rate": 1.59,
+      "ctl": 19.14,
+      "atl": 29.74,
+      "tsb": -10.6,
+      "ramp_rate": 2.11,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -70,27 +70,27 @@
     "rhr_baseline_28d": 50.8,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.48,
-    "acwr_interpretation": "caution",
-    "monotony": 1.0,
+    "acwr": 1.57,
+    "acwr_interpretation": "danger",
+    "monotony": 0.98,
     "monotony_interpretation": "normal",
-    "strain": 224.0,
-    "stress_tolerance": 2.2,
+    "strain": 241.0,
+    "stress_tolerance": 2.5,
     "load_recovery_ratio": null,
-    "tss_7d_total": 224.0,
-    "tss_28d_total": 604.0,
+    "tss_7d_total": 246.0,
+    "tss_28d_total": 626.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.87,
-      "z2_hours": 0.56,
+      "z1_hours": 0.88,
+      "z2_hours": 1.07,
       "z3_hours": 0.77,
       "z4_plus_hours": 0.94,
-      "total_hours": 3.14
+      "total_hours": 3.66
     },
-    "grey_zone_percentage": 24.5,
+    "grey_zone_percentage": 21.0,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 30.0,
+    "quality_intensity_percentage": 25.8,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.45,
+    "polarisation_index": 0.53,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "consistency_index": 1.0,
     "consistency_details": {
@@ -108,8 +108,8 @@
     },
     "phase_detected": "Peak",
     "phase_triggers": [
-      "ACWR 1.48 >= 1.0",
-      "Quality Intensity 30.0% > 20%"
+      "ACWR 1.57 >= 1.0",
+      "Quality Intensity 25.8% > 20%"
     ],
     "seasonal_context": "Early Base",
     "benchmark_indoor": {
@@ -133,12 +133,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-18T19:13:40.910809",
+    "calculation_timestamp": "2026-02-18T19:56:12.086141",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
-      "activities_7d": 6,
-      "activities_28d": 12,
+      "activities_7d": 8,
+      "activities_28d": 14,
       "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
@@ -149,6 +149,108 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-02-18T20:22:44",
+      "type": "VirtualRide",
+      "name": "Zwift - Neues Workout on The Classic in Watopia",
+      "duration_hours": 0.26,
+      "distance_km": 5.93,
+      "tss": 11,
+      "intensity_factor": 64.35185,
+      "avg_power": 139,
+      "normalized_power": 139,
+      "avg_hr": 125,
+      "max_hr": 133,
+      "avg_cadence": 80.23135,
+      "avg_speed": 23.0,
+      "max_speed": 56.2,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 128.4,
+      "calories": 122,
+      "carbs_used": 48,
+      "carbs_ingested": null,
+      "variability_index": 1.0,
+      "decoupling": 0.013329382,
+      "elevation_m": 72.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 925,
+          "z2_time": 1,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 13,
+          "z2_time": 913,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
+      "date": "2026-02-18T20:05:32",
+      "type": "VirtualRide",
+      "name": "Zwift - Neues Workout on Volcano Circuit CCW in Watopia",
+      "duration_hours": 0.26,
+      "distance_km": 7.77,
+      "tss": 11,
+      "intensity_factor": 63.88889,
+      "avg_power": 136,
+      "normalized_power": 138,
+      "avg_hr": 130,
+      "max_hr": 139,
+      "avg_cadence": 82.3279,
+      "avg_speed": 29.6,
+      "max_speed": 48.9,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 128.0,
+      "calories": 122,
+      "carbs_used": 50,
+      "carbs_ingested": null,
+      "variability_index": 1.0147059,
+      "decoupling": -0.28102416,
+      "elevation_m": 38.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 729,
+          "z2_time": 216,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 35,
+          "z2_time": 910,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_3",
       "date": "2026-02-18T19:23:35",
       "type": "VirtualRide",
       "name": "IntervalCoach - Threshold",
@@ -199,7 +301,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_4",
       "date": "2026-02-16T16:34:03",
       "type": "Workout",
       "name": "Training Session",
@@ -241,7 +343,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_5",
       "date": "2026-02-15T08:31:28",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -283,7 +385,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_6",
       "date": "2026-02-15T08:31:28",
       "type": "VirtualRide",
       "name": "Zwift - London 8 in London",
@@ -334,7 +436,7 @@
       }
     },
     {
-      "id": "activity_5",
+      "id": "activity_7",
       "date": "2026-02-13T13:30:55",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -376,7 +478,7 @@
       }
     },
     {
-      "id": "activity_6",
+      "id": "activity_8",
       "date": "2026-02-13T13:30:55",
       "type": "VirtualRide",
       "name": "Zwift - BRAEk-fast Crits and Grits in Scotland",
@@ -564,9 +666,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 4.72,
-    "total_tss": 224,
-    "activities_count": 6,
+    "total_training_hours": 5.24,
+    "total_tss": 246,
+    "activities_count": 8,
     "avg_hrv": null,
     "avg_resting_hr": 50.0
   }
