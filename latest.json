@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-18T23:59:31.775040",
+    "last_updated": "2026-02-19T02:40:58.502822",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -38,11 +38,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 19.17,
-      "atl": 29.87,
-      "tsb": -10.7,
-      "ramp_rate": 2.13,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 18.71,
+      "atl": 25.9,
+      "tsb": -7.19,
+      "ramp_rate": 2.08,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 216,
@@ -65,12 +65,12 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 50,
+    "rhr_baseline_7d": 49.8,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 50.8,
+    "rhr_baseline_28d": 51.0,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.58,
+    "acwr": 1.78,
     "acwr_interpretation": "danger",
     "monotony": 0.98,
     "monotony_interpretation": "normal",
@@ -78,7 +78,7 @@
     "stress_tolerance": 2.5,
     "load_recovery_ratio": null,
     "tss_7d_total": 247.0,
-    "tss_28d_total": 627.0,
+    "tss_28d_total": 555.0,
     "zone_distribution_7d": {
       "z1_hours": 0.91,
       "z2_hours": 1.07,
@@ -92,13 +92,14 @@
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 0.54,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": 1.0,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 3,
       "matched_days": 1,
       "planned_dates": [
-        "2026-02-18"
+        "2026-02-18",
+        "2026-02-19"
       ],
       "completed_dates": [
         "2026-02-13",
@@ -108,7 +109,7 @@
     },
     "phase_detected": "Peak",
     "phase_triggers": [
-      "ACWR 1.58 >= 1.0",
+      "ACWR 1.78 >= 1.0",
       "Quality Intensity 25.5% > 20%"
     ],
     "seasonal_context": "Early Base",
@@ -133,13 +134,13 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-18T23:59:31.774951",
+    "calculation_timestamp": "2026-02-19T02:40:58.502733",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 5,
       "activities_7d": 11,
-      "activities_28d": 17,
-      "planned_workouts_7d": 1,
+      "activities_28d": 16,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -657,21 +658,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-02-12",
-      "weight_kg": null,
-      "resting_hr": 51,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-02-13",
       "weight_kg": 86.4,
       "resting_hr": 48,
@@ -760,20 +746,26 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-02-19",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
     {
       "id": "event_1",
-      "date": "2026-02-18T09:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "Warmup\n- Hi Vellocet, lass uns langsam starten 9m ramp 40-70% 85rpm\n\nMain Set\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n- Erholung 5m 55%\n- Harte Anstrengung 10m 95% 80rpm\n\nCooldown\n- Gut gemacht Vellocet, bring es runter 6m ramp 65-40%\n\n[Weekly Plan - Build]",
-      "planned_tss": 83,
-      "duration_hours": 0.0
-    },
-    {
-      "id": "event_2",
       "date": "2026-02-19T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -782,7 +774,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_3",
+      "id": "event_2",
       "date": "2026-02-22T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -796,6 +788,6 @@
     "total_tss": 247,
     "activities_count": 11,
     "avg_hrv": null,
-    "avg_resting_hr": 50.0
+    "avg_resting_hr": 49.8
   }
 }
