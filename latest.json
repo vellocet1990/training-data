@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 5.59,
-      "total_activities": 10,
+      "total_training_hours": 6.36,
+      "total_activities": 11,
       "total_tss": 208
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-20T17:23:45.117267",
+    "last_updated": "2026-02-20T18:00:42.778835",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,14 +19,14 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 5.59,
-    "total_activities": 10,
+    "total_duration_decimal_hours": 6.36,
+    "total_activities": 11,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 4.64,
-        "count": 9,
+        "duration_decimal_hours": 5.41,
+        "count": 10,
         "tss": 175,
-        "distance_km": 128.2
+        "distance_km": 147.1
       },
       "Workout": {
         "duration_decimal_hours": 0.96,
@@ -84,7 +84,7 @@
       "z2_hours": 1.28,
       "z3_hours": 0.59,
       "z4_plus_hours": 0.64,
-      "total_hours": 3.68
+      "total_hours": 3.69
     },
     "grey_zone_percentage": 16.0,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
@@ -133,12 +133,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-20T17:23:45.117179",
+    "calculation_timestamp": "2026-02-20T18:00:42.778749",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
-      "activities_7d": 10,
-      "activities_28d": 17,
+      "activities_7d": 11,
+      "activities_28d": 18,
       "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
@@ -149,6 +149,48 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-02-20T12:37:45",
+      "type": "VirtualRide",
+      "name": "Rad indoor",
+      "duration_hours": 0.77,
+      "distance_km": 18.93,
+      "tss": 0,
+      "intensity_factor": 0.0,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 117,
+      "max_hr": 119,
+      "avg_cadence": null,
+      "avg_speed": 24.7,
+      "max_speed": 24.7,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 335,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 12,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-02-20T12:37:45",
       "type": "VirtualRide",
       "name": "Zwift - Richmond Rollercoaster in Richmond",
@@ -199,7 +241,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-02-18T20:22:44",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -241,7 +283,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-02-18T20:22:44",
       "type": "VirtualRide",
       "name": "Zwift - Neues Workout on The Classic in Watopia",
@@ -292,7 +334,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-02-18T20:05:32",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -334,7 +376,7 @@
       }
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-02-18T20:05:32",
       "type": "VirtualRide",
       "name": "Zwift - Neues Workout on Volcano Circuit CCW in Watopia",
@@ -385,7 +427,7 @@
       }
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-02-18T19:23:35",
       "type": "VirtualRide",
       "name": "IntervalCoach - Threshold",
@@ -436,7 +478,7 @@
       }
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-02-18T19:23:35",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -478,7 +520,7 @@
       }
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-02-16T16:34:03",
       "type": "Workout",
       "name": "Training Session",
@@ -520,7 +562,7 @@
       }
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-02-15T08:31:28",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -562,7 +604,7 @@
       }
     },
     {
-      "id": "activity_10",
+      "id": "activity_11",
       "date": "2026-02-15T08:31:28",
       "type": "VirtualRide",
       "name": "Zwift - London 8 in London",
@@ -732,9 +774,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 5.59,
+    "total_training_hours": 6.36,
     "total_tss": 208,
-    "activities_count": 10,
+    "activities_count": 11,
     "avg_hrv": null,
     "avg_resting_hr": 51.5
   }
