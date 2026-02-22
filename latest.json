@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-22T19:00:32.282670",
+    "last_updated": "2026-02-22T19:36:12.805290",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -132,7 +132,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-22T19:00:32.282579",
+    "calculation_timestamp": "2026-02-22T19:36:12.805187",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -854,7 +854,26 @@
       "vo2max": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": "event_1",
+      "date": "2026-02-26T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- 6m ramp 40-75%\n\nMain Set\n- Endurance 32m ramp 56-75%\n\nCooldown\n- 4m ramp 56-40%\n\n[Weekly Plan - Build]",
+      "planned_tss": 29,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_2",
+      "date": "2026-03-01T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- Hallo Vellocet, wir starten locker in diese Ausdauereinheit 6m ramp 40-70% 85rpm\n\nMain Set\n- Endurance Basis 8m 65% 90rpm\n- Tempo Touch 30s 82% 95rpm\n- Hohe Trittfrequenz 4m 68% 105rpm\n- Endurance Basis 8m 65% 90rpm\n- Tempo Touch 30s 82% 95rpm\n- Niedrige Trittfrequenz 4m 72% 70rpm\n- Endurance Basis 7m 65% 90rpm\n\nCooldown\n- Saubere Arbeit Vellocet, jetzt locker ausrollen 4m ramp 60-40%\n\n[Weekly Plan - Build]",
+      "planned_tss": 29,
+      "duration_hours": 0.0
+    }
+  ],
   "weekly_summary": {
     "total_training_hours": 6.26,
     "total_tss": 204,
