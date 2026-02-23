@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-23T10:33:25.856343",
+    "last_updated": "2026-02-23T11:26:19.934860",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -51,7 +51,7 @@
     },
     "current_metrics": {
       "weight_kg": 86.4,
-      "resting_hr": 52,
+      "resting_hr": 54,
       "hrv": null,
       "sleep_score": null
     }
@@ -59,9 +59,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 52,
+    "rhr_baseline_7d": 52.4,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.2,
+    "rhr_baseline_28d": 51.3,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.2,
@@ -127,10 +127,10 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-23T10:33:25.856222",
+    "calculation_timestamp": "2026-02-23T11:26:19.934743",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 4,
+      "rhr_data_points": 5,
       "activities_7d": 12,
       "activities_28d": 21,
       "planned_workouts_7d": 1,
@@ -779,10 +779,10 @@
     {
       "date": "2026-02-22",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 54,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
+      "sleep_hours": 6.49,
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -810,6 +810,24 @@
   "planned_workouts": [
     {
       "id": "event_1",
+      "date": "2026-02-24T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- Hallo Vellocet! Lass uns die Beine f\u00fcr die 30/15er aktivieren 9m ramp 40-75% 85rpm\n\nMain Set\n13x\n- Hart 30s 125% 100rpm\n- Aktiv 15s 60% 85rpm\n\n- Erholung 6m 55% 80rpm\n\n13x\n- Hart 30s 125% 100rpm\n- Aktiv 15s 60% 85rpm\n\n- Erholung 6m 55% 80rpm\n\n13x\n- Hart 30s 125% 100rpm\n- Aktiv 15s 60% 85rpm\n\nCooldown\n- Saubere Arbeit Vellocet! Jetzt gut erholen f\u00fcr den n\u00e4chsten Reiz 6m ramp 55-40% 80rpm",
+      "planned_tss": 77,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_2",
+      "date": "2026-02-24T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- Hallo Vellocet, lass uns die Beine f\u00fcr die 30/15er aktivieren 9m ramp 45-75% 90rpm\n\nMain Set\n13x\n- Hart 30s 125% 105rpm\n- Aktiv 15s 60% 85rpm\n\n- Erholung 6m 55% 85rpm\n\n13x\n- Hart 30s 125% 105rpm\n- Aktiv 15s 60% 85rpm\n\n- Erholung 6m 55% 85rpm\n\n13x\n- Hart 30s 125% 105rpm\n- Aktiv 15s 60% 85rpm\n\nCooldown\n- Saubere Arbeit Vellocet, jetzt gut erholen f\u00fcr den weiteren Aufbau 10m 15s ramp 55-40% 80rpm",
+      "planned_tss": 81,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_3",
       "date": "2026-02-26T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -818,7 +836,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_2",
+      "id": "event_4",
       "date": "2026-03-01T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -832,6 +850,6 @@
     "total_tss": 171,
     "activities_count": 12,
     "avg_hrv": null,
-    "avg_resting_hr": 52.0
+    "avg_resting_hr": 52.4
   }
 }
