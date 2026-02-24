@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-24T04:31:24.660995",
+    "last_updated": "2026-02-24T05:45:48.281522",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -128,7 +128,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-24T04:31:24.660906",
+    "calculation_timestamp": "2026-02-24T05:45:48.281422",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
@@ -843,6 +843,15 @@
       "type": "WORKOUT",
       "description": "Warmup\n- Hallo Vellocet! Wir starten heute locker in die Ausdauereinheit 6m ramp 40-70% 90rpm\n\nMain Set\n- Basis Ausdauer 8m 65% 85rpm\n- Tempo Touch 30s 80% 95rpm\n- Hohe Trittfrequenz 4m 68% 105rpm\n- Basis Ausdauer 8m 65% 85rpm\n- Tempo Touch 30s 80% 95rpm\n- Niedrige Trittfrequenz 4m 68% 65rpm\n- Basis Ausdauer 7m 65% 85rpm\n- Tempo Touch 30s 80% 95rpm\n\nCooldown\n- Saubere Arbeit Vellocet! Jetzt gut erholen 4m ramp 60-40% 85rpm\n\n[Weekly Plan - Build]",
       "planned_tss": 29,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_5",
+      "date": "2026-03-03T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- Hallo Vellocet, lass uns die Beine f\u00fcr die Intervalle aktivieren 9m ramp 40-75% 85rpm\n\nMain Set\n4x\n- Threshold Intervall 10m 98% 90rpm\n- Erholung 3m 55% 80rpm\n\nCooldown\n- Saubere Arbeit Vellocet, jetzt locker ausfahren 6m ramp 55-40% 85rpm\n\n[Weekly Plan - Build]",
+      "planned_tss": 85,
       "duration_hours": 0.0
     }
   ],
