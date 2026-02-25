@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 3.02,
-      "total_activities": 6,
-      "total_tss": 91
+      "total_training_hours": 4.0,
+      "total_activities": 7,
+      "total_tss": 155
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-25T18:40:12.660878",
+    "last_updated": "2026-02-25T19:37:54.674157",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,24 +19,24 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 3.02,
-    "total_activities": 6,
+    "total_duration_decimal_hours": 4.0,
+    "total_activities": 7,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 3.02,
-        "count": 6,
-        "tss": 91,
-        "distance_km": 80.2
+        "duration_decimal_hours": 4.0,
+        "count": 7,
+        "tss": 155,
+        "distance_km": 110.4
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 18.19,
-      "atl": 18.23,
-      "tsb": -0.04,
-      "ramp_rate": 0.9,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 19.69,
+      "atl": 26.75,
+      "tsb": -7.06,
+      "ramp_rate": 0.53,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 243,
@@ -64,44 +64,45 @@
     "rhr_baseline_28d": 51.5,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.64,
-    "acwr_interpretation": "undertraining",
-    "monotony": 0.54,
+    "acwr": 0.98,
+    "acwr_interpretation": "optimal",
+    "monotony": 0.75,
     "monotony_interpretation": "normal",
-    "strain": 49.0,
-    "stress_tolerance": 0.9,
+    "strain": 116.0,
+    "stress_tolerance": 1.5,
     "load_recovery_ratio": null,
-    "tss_7d_total": 91.0,
-    "tss_28d_total": 570.0,
+    "tss_7d_total": 155.0,
+    "tss_28d_total": 634.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.67,
-      "z2_hours": 0.49,
-      "z3_hours": 0.19,
-      "z4_plus_hours": 0.19,
-      "total_hours": 1.54
+      "z1_hours": 1.2,
+      "z2_hours": 0.65,
+      "z3_hours": 0.22,
+      "z4_plus_hours": 0.46,
+      "total_hours": 2.52
     },
-    "grey_zone_percentage": 12.4,
+    "grey_zone_percentage": 8.6,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 12.2,
+    "quality_intensity_percentage": 18.1,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.75,
+    "polarisation_index": 0.73,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": 0.0,
+    "consistency_index": 1.0,
     "consistency_details": {
       "planned_days": 1,
-      "completed_days": 2,
-      "matched_days": 0,
+      "completed_days": 3,
+      "matched_days": 1,
       "planned_dates": [
         "2026-02-25"
       ],
       "completed_dates": [
         "2026-02-20",
-        "2026-02-22"
+        "2026-02-22",
+        "2026-02-25"
       ]
     },
-    "phase_detected": "Indeterminate",
+    "phase_detected": "Base",
     "phase_triggers": [
-      "Insufficient data for phase detection"
+      "ACWR 0.98 in 0.8-1.0"
     ],
     "seasonal_context": "Early Base",
     "benchmark_indoor": {
@@ -125,12 +126,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-25T18:40:12.660746",
+    "calculation_timestamp": "2026-02-25T19:37:54.674023",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
-      "activities_7d": 6,
-      "activities_28d": 21,
+      "activities_7d": 7,
+      "activities_28d": 22,
       "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
@@ -141,6 +142,57 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-02-25T19:22:55",
+      "type": "VirtualRide",
+      "name": "IntervalCoach - VO2max Short",
+      "duration_hours": 0.98,
+      "distance_km": 30.18,
+      "tss": 64,
+      "intensity_factor": 80.78432,
+      "avg_power": 173,
+      "normalized_power": 206,
+      "avg_hr": 146,
+      "max_hr": 170,
+      "avg_cadence": 86.34352,
+      "avg_speed": 30.8,
+      "max_speed": 50.3,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 608.9,
+      "calories": 581,
+      "carbs_used": 183,
+      "carbs_ingested": null,
+      "variability_index": 1.1907514,
+      "decoupling": 9.059478,
+      "elevation_m": 181.0,
+      "feel": 2,
+      "rpe": 9,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 730,
+          "z2_time": 952,
+          "z3_time": 419,
+          "z4_time": 919,
+          "z5_time": 469,
+          "z6_time": 37,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 1913,
+          "z2_time": 557,
+          "z3_time": 93,
+          "z4_time": 82,
+          "z5_time": 647,
+          "z6_time": 234,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-02-22T11:27:24",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -182,7 +234,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-02-22T11:27:24",
       "type": "VirtualRide",
       "name": "Zwift - FTP Ramp Test on Flat Route in Watopia",
@@ -233,7 +285,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-02-22T11:05:25",
       "type": "VirtualRide",
       "name": "Zwift - Sir Bradley Wiggins | Ultimate Warm Up on Hilly Route in Watopia",
@@ -284,7 +336,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-02-22T11:05:25",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -326,7 +378,7 @@
       }
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-02-20T12:37:45",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -368,7 +420,7 @@
       }
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-02-20T12:37:45",
       "type": "VirtualRide",
       "name": "Zwift - Richmond Rollercoaster in Richmond",
@@ -574,9 +626,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 3.02,
-    "total_tss": 91,
-    "activities_count": 6,
+    "total_training_hours": 4.0,
+    "total_tss": 155,
+    "activities_count": 7,
     "avg_hrv": null,
     "avg_resting_hr": 53.7
   }
