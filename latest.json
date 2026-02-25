@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 5.3,
-      "total_activities": 12,
-      "total_tss": 171
+      "total_training_hours": 3.02,
+      "total_activities": 6,
+      "total_tss": 91
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-24T23:46:33.753991",
+    "last_updated": "2026-02-25T01:29:39.129337",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,24 +19,24 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 5.3,
-    "total_activities": 12,
+    "total_duration_decimal_hours": 3.02,
+    "total_activities": 6,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 5.3,
-        "count": 12,
-        "tss": 171,
-        "distance_km": 146.9
+        "duration_decimal_hours": 3.02,
+        "count": 6,
+        "tss": 91,
+        "distance_km": 80.2
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 18.62,
-      "atl": 21.03,
-      "tsb": -2.41,
-      "ramp_rate": 0.92,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 20.05,
+      "atl": 27.58,
+      "tsb": -7.53,
+      "ramp_rate": 0.88,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 216,
@@ -59,52 +59,49 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 52.8,
+    "rhr_baseline_7d": 52.5,
     "hrv_baseline_28d": null,
     "rhr_baseline_28d": 51.2,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.2,
-    "acwr_interpretation": "optimal",
-    "monotony": 0.72,
+    "acwr": 0.64,
+    "acwr_interpretation": "undertraining",
+    "monotony": 0.54,
     "monotony_interpretation": "normal",
-    "strain": 123.0,
-    "stress_tolerance": 1.7,
+    "strain": 49.0,
+    "stress_tolerance": 0.9,
     "load_recovery_ratio": null,
-    "tss_7d_total": 171.0,
+    "tss_7d_total": 91.0,
     "tss_28d_total": 570.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.73,
-      "z2_hours": 1.05,
-      "z3_hours": 0.33,
-      "z4_plus_hours": 0.61,
-      "total_hours": 2.72
+      "z1_hours": 0.67,
+      "z2_hours": 0.49,
+      "z3_hours": 0.19,
+      "z4_plus_hours": 0.19,
+      "total_hours": 1.54
     },
-    "grey_zone_percentage": 12.1,
+    "grey_zone_percentage": 12.4,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 22.4,
+    "quality_intensity_percentage": 12.2,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.66,
+    "polarisation_index": 0.75,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": 0.5,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 2,
-      "completed_days": 3,
-      "matched_days": 1,
+      "planned_days": 1,
+      "completed_days": 2,
+      "matched_days": 0,
       "planned_dates": [
-        "2026-02-18",
         "2026-02-24"
       ],
       "completed_dates": [
-        "2026-02-18",
         "2026-02-20",
         "2026-02-22"
       ]
     },
-    "phase_detected": "Build",
+    "phase_detected": "Indeterminate",
     "phase_triggers": [
-      "ACWR 1.2 in 1.0-1.3",
-      "Quality Intensity 22.4% in 15-25%"
+      "Insufficient data for phase detection"
     ],
     "seasonal_context": "Early Base",
     "benchmark_indoor": {
@@ -128,13 +125,13 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-24T23:46:33.753878",
+    "calculation_timestamp": "2026-02-25T01:29:39.129228",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
-      "activities_7d": 12,
+      "rhr_data_points": 4,
+      "activities_7d": 6,
       "activities_28d": 21,
-      "planned_workouts_7d": 2,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -420,303 +417,9 @@
           "z7_time": 0
         }
       }
-    },
-    {
-      "id": "activity_7",
-      "date": "2026-02-18T20:22:44",
-      "type": "VirtualRide",
-      "name": "Rad indoor",
-      "duration_hours": 0.26,
-      "distance_km": 5.93,
-      "tss": 0,
-      "intensity_factor": 0.0,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 116,
-      "max_hr": 125,
-      "avg_cadence": null,
-      "avg_speed": 23.0,
-      "max_speed": 23.0,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": 122,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 43,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      }
-    },
-    {
-      "id": "activity_8",
-      "date": "2026-02-18T20:22:44",
-      "type": "VirtualRide",
-      "name": "Zwift - Neues Workout on The Classic in Watopia",
-      "duration_hours": 0.26,
-      "distance_km": 5.93,
-      "tss": 11,
-      "intensity_factor": 64.35185,
-      "avg_power": 139,
-      "normalized_power": 139,
-      "avg_hr": 125,
-      "max_hr": 133,
-      "avg_cadence": 80.23135,
-      "avg_speed": 23.0,
-      "max_speed": 56.2,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": 128.4,
-      "calories": 122,
-      "carbs_used": 48,
-      "carbs_ingested": null,
-      "variability_index": 1.0,
-      "decoupling": 0.013329382,
-      "elevation_m": 72.0,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 925,
-          "z2_time": 1,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        },
-        "power_zones": {
-          "z1_time": 13,
-          "z2_time": 913,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      }
-    },
-    {
-      "id": "activity_9",
-      "date": "2026-02-18T20:05:32",
-      "type": "VirtualRide",
-      "name": "Rad indoor",
-      "duration_hours": 0.26,
-      "distance_km": 7.77,
-      "tss": 0,
-      "intensity_factor": 0.0,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 123,
-      "max_hr": 135,
-      "avg_cadence": null,
-      "avg_speed": 29.6,
-      "max_speed": 29.6,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": 122,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 42,
-          "z2_time": 6,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      }
-    },
-    {
-      "id": "activity_10",
-      "date": "2026-02-18T20:05:32",
-      "type": "VirtualRide",
-      "name": "Zwift - Neues Workout on Volcano Circuit CCW in Watopia",
-      "duration_hours": 0.26,
-      "distance_km": 7.77,
-      "tss": 11,
-      "intensity_factor": 63.88889,
-      "avg_power": 136,
-      "normalized_power": 138,
-      "avg_hr": 130,
-      "max_hr": 139,
-      "avg_cadence": 82.3279,
-      "avg_speed": 29.6,
-      "max_speed": 48.9,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": 128.0,
-      "calories": 122,
-      "carbs_used": 50,
-      "carbs_ingested": null,
-      "variability_index": 1.0147059,
-      "decoupling": -0.28102416,
-      "elevation_m": 38.0,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 729,
-          "z2_time": 216,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        },
-        "power_zones": {
-          "z1_time": 35,
-          "z2_time": 910,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      }
-    },
-    {
-      "id": "activity_11",
-      "date": "2026-02-18T19:23:35",
-      "type": "VirtualRide",
-      "name": "IntervalCoach - Threshold",
-      "duration_hours": 0.62,
-      "distance_km": 19.64,
-      "tss": 57,
-      "intensity_factor": 95.833336,
-      "avg_power": 202,
-      "normalized_power": 207,
-      "avg_hr": 151,
-      "max_hr": 165,
-      "avg_cadence": 85.95127,
-      "avg_speed": 31.6,
-      "max_speed": 68.5,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": 452.4,
-      "calories": 431,
-      "carbs_used": 100,
-      "carbs_ingested": null,
-      "variability_index": 1.0247525,
-      "decoupling": -1.9585576,
-      "elevation_m": 159.0,
-      "feel": 1,
-      "rpe": 6,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 303,
-          "z2_time": 235,
-          "z3_time": 412,
-          "z4_time": 1271,
-          "z5_time": 16,
-          "z6_time": 0,
-          "z7_time": 0
-        },
-        "power_zones": {
-          "z1_time": 82,
-          "z2_time": 167,
-          "z3_time": 477,
-          "z4_time": 1002,
-          "z5_time": 473,
-          "z6_time": 36,
-          "z7_time": 0
-        }
-      }
-    },
-    {
-      "id": "activity_12",
-      "date": "2026-02-18T19:23:35",
-      "type": "VirtualRide",
-      "name": "Rad indoor",
-      "duration_hours": 0.62,
-      "distance_km": 19.64,
-      "tss": 1,
-      "intensity_factor": 12.691486,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 142,
-      "max_hr": 153,
-      "avg_cadence": null,
-      "avg_speed": 31.6,
-      "max_speed": 31.6,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": 431,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 12,
-          "z2_time": 6,
-          "z3_time": 18,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      }
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-02-18",
-      "weight_kg": null,
-      "resting_hr": 54,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": 6.34,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-02-19",
       "weight_kg": null,
@@ -806,20 +509,26 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-02-25",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
     {
       "id": "event_1",
-      "date": "2026-02-24T09:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "Warmup\n- Hallo Vellocet, lass uns die Beine f\u00fcr die 30/15er aktivieren 9m ramp 45-75% 90rpm\n\nMain Set\n13x\n- Hart 30s 125% 105rpm\n- Aktiv 15s 60% 85rpm\n\n- Erholung 6m 55% 85rpm\n\n13x\n- Hart 30s 125% 105rpm\n- Aktiv 15s 60% 85rpm\n\n- Erholung 6m 55% 85rpm\n\n13x\n- Hart 30s 125% 105rpm\n- Aktiv 15s 60% 85rpm\n\nCooldown\n- Saubere Arbeit Vellocet, jetzt gut erholen f\u00fcr den weiteren Aufbau 10m 15s ramp 55-40% 80rpm",
-      "planned_tss": 81,
-      "duration_hours": 0.0
-    },
-    {
-      "id": "event_2",
       "date": "2026-02-26T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -828,7 +537,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_3",
+      "id": "event_2",
       "date": "2026-03-01T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -837,7 +546,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_4",
+      "id": "event_3",
       "date": "2026-03-03T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -847,10 +556,10 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 5.3,
-    "total_tss": 171,
-    "activities_count": 12,
+    "total_training_hours": 3.02,
+    "total_tss": 91,
+    "activities_count": 6,
     "avg_hrv": null,
-    "avg_resting_hr": 52.8
+    "avg_resting_hr": 52.5
   }
 }
