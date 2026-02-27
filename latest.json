@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-27T05:40:53.594570",
+    "last_updated": "2026-02-27T06:32:20.526854",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -35,17 +35,17 @@
       "ctl": 18.8,
       "atl": 20.21,
       "tsb": -1.41,
-      "ramp_rate": -0.18,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": 0.52,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 243,
       "ftp_indoor": 255,
-      "eftp": 242.8,
+      "eftp": 243.0,
       "lthr": 165,
       "max_hr": 184,
-      "w_prime": 20339,
-      "w_prime_kj": 20.3,
+      "w_prime": 20359,
+      "w_prime_kj": 20.4,
       "p_max": 763,
       "vo2max": null
     },
@@ -59,9 +59,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 53.4,
+    "rhr_baseline_7d": 53.5,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.6,
+    "rhr_baseline_28d": 51.7,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.79,
@@ -86,13 +86,14 @@
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 0.68,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": 1.0,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 2,
       "matched_days": 1,
       "planned_dates": [
-        "2026-02-25"
+        "2026-02-25",
+        "2026-02-27"
       ],
       "completed_dates": [
         "2026-02-22",
@@ -118,20 +119,20 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 242.8,
-    "w_prime": 20339,
-    "w_prime_kj": 20.3,
+    "eftp": 243.0,
+    "w_prime": 20359,
+    "w_prime_kj": 20.4,
     "p_max": 763,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-27T05:40:53.594438",
+    "calculation_timestamp": "2026-02-27T06:32:20.526716",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 6,
       "activities_28d": 23,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 19
@@ -498,10 +499,10 @@
     {
       "date": "2026-02-26",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 54,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
+      "sleep_hours": 8.24,
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -516,7 +517,7 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
+      "sleep_hours": 8.17,
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -529,6 +530,15 @@
   "planned_workouts": [
     {
       "id": "event_1",
+      "date": "2026-02-27T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- Hallo Vellocet, wir starten mit einer progressiven Aktivierung 9m ramp 40-75% 85rpm\n\nMain Set\n4x\n- Threshold mit Z5 Endspurt 11m 98% 90rpm\n- Maximaler Einsatz 1m 110% 100rpm\n- Erholung 4m 50% 85rpm\n\nCooldown\n- Klasse Leistung Vellocet, jetzt locker ausrollen 7m ramp 50-40% 80rpm",
+      "planned_tss": 103,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_2",
       "date": "2026-03-01T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -537,7 +547,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_2",
+      "id": "event_3",
       "date": "2026-03-03T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -546,7 +556,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_3",
+      "id": "event_4",
       "date": "2026-03-05T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -555,7 +565,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_4",
+      "id": "event_5",
       "date": "2026-03-08T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -564,7 +574,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_5",
+      "id": "event_6",
       "date": "2026-03-10T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -578,6 +588,6 @@
     "total_tss": 126,
     "activities_count": 6,
     "avg_hrv": null,
-    "avg_resting_hr": 53.4
+    "avg_resting_hr": 53.5
   }
 }
