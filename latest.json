@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-27T04:42:09.907508",
+    "last_updated": "2026-02-27T05:40:53.594570",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -125,7 +125,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-27T04:42:09.907395",
+    "calculation_timestamp": "2026-02-27T05:40:53.594438",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -561,6 +561,15 @@
       "type": "WORKOUT",
       "description": "Warmup\n- Hallo Vellocet, lass uns die Beine heute locker bewegen 9m ramp 40-70% 85rpm\n\nMain Set\n- Endurance Block 1 8m 65% 85rpm\n- Tempo Touch 1 30s 80% 95rpm\n- Endurance Block 2 8m 68% 100rpm\n- Tempo Touch 2 30s 82% 95rpm\n- Endurance Block 3 8m 62% 85rpm\n- Tempo Touch 3 30s 80% 95rpm\n- Endurance Block 4 8m 70% 100rpm\n- Tempo Touch 4 30s 82% 95rpm\n- Endurance Block 5 8m 65% 85rpm\n- Tempo Touch 5 30s 80% 95rpm\n\nCooldown\n- Saubere Arbeit Vellocet, jetzt locker ausrollen 6m ramp 55-40% 85rpm\n\n[Weekly Plan - Build]",
       "planned_tss": 39,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_5",
+      "date": "2026-03-10T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- Hallo Vellocet wir bereiten die Beine auf die Schwellenarbeit vor 12m ramp 40-75% 90rpm\n\nMain Set\n2x\n- Schwelle halten 20m 98% 85rpm\n- Erholung 5m 50% 95rpm\n\nCooldown\n- Klasse Arbeit Vellocet erhole dich gut nach diesen langen Intervallen 5m ramp 50-40% 85rpm\n\n[Weekly Plan - Build]",
+      "planned_tss": 85,
       "duration_hours": 0.0
     }
   ],
