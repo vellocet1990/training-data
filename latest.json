@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 4.74,
-      "total_activities": 7,
-      "total_tss": 209
+      "total_training_hours": 6.01,
+      "total_activities": 8,
+      "total_tss": 210
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-28T15:53:18.038538",
+    "last_updated": "2026-02-28T16:19:04.020180",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,23 +19,23 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 4.74,
-    "total_activities": 7,
+    "total_duration_decimal_hours": 6.01,
+    "total_activities": 8,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 4.74,
-        "count": 7,
-        "tss": 209,
-        "distance_km": 125.0
+        "duration_decimal_hours": 6.01,
+        "count": 8,
+        "tss": 210,
+        "distance_km": 147.3
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 20.31,
-      "atl": 28.56,
-      "tsb": -8.25,
-      "ramp_rate": 1.78,
+      "ctl": 20.33,
+      "atl": 28.7,
+      "tsb": -8.37,
+      "ramp_rate": 1.8,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -64,25 +64,25 @@
     "rhr_baseline_28d": 51.6,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.16,
+    "acwr": 1.17,
     "acwr_interpretation": "optimal",
     "monotony": 0.79,
     "monotony_interpretation": "normal",
-    "strain": 165.0,
+    "strain": 166.0,
     "stress_tolerance": 2.1,
     "load_recovery_ratio": null,
-    "tss_7d_total": 209.0,
-    "tss_28d_total": 718.0,
+    "tss_7d_total": 210.0,
+    "tss_28d_total": 719.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.32,
-      "z2_hours": 0.48,
+      "z1_hours": 1.33,
+      "z2_hours": 0.49,
       "z3_hours": 0.14,
       "z4_plus_hours": 1.1,
-      "total_hours": 3.04
+      "total_hours": 3.06
     },
     "grey_zone_percentage": 4.6,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 36.2,
+    "quality_intensity_percentage": 35.9,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 0.59,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
@@ -103,8 +103,8 @@
     },
     "phase_detected": "Peak",
     "phase_triggers": [
-      "ACWR 1.16 >= 1.0",
-      "Quality Intensity 36.2% > 20%"
+      "ACWR 1.17 >= 1.0",
+      "Quality Intensity 35.9% > 20%"
     ],
     "seasonal_context": "Early Base",
     "benchmark_indoor": {
@@ -128,12 +128,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-28T15:53:18.038329",
+    "calculation_timestamp": "2026-02-28T16:19:04.020038",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
-      "activities_7d": 7,
-      "activities_28d": 24,
+      "activities_7d": 8,
+      "activities_28d": 25,
       "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
@@ -144,6 +144,48 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-02-28T15:14:13",
+      "type": "VirtualRide",
+      "name": "Rad indoor",
+      "duration_hours": 1.27,
+      "distance_km": 22.31,
+      "tss": 1,
+      "intensity_factor": 8.874536,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 131,
+      "max_hr": 145,
+      "avg_cadence": null,
+      "avg_speed": 17.6,
+      "max_speed": 17.6,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 811,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 37,
+          "z2_time": 48,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-02-28T15:14:13",
       "type": "VirtualRide",
       "name": "IntervalCoach - Threshold",
@@ -170,8 +212,8 @@
       "variability_index": 1.1075269,
       "decoupling": 13.828989,
       "elevation_m": 745.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 9,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 777,
@@ -194,7 +236,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-02-25T19:22:55",
       "type": "VirtualRide",
       "name": "IntervalCoach - VO2max Short",
@@ -245,7 +287,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-02-25T19:22:55",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -287,7 +329,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-02-22T11:27:24",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -329,7 +371,7 @@
       }
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-02-22T11:27:24",
       "type": "VirtualRide",
       "name": "Zwift - FTP Ramp Test on Flat Route in Watopia",
@@ -380,7 +422,7 @@
       }
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-02-22T11:05:25",
       "type": "VirtualRide",
       "name": "Zwift - Sir Bradley Wiggins | Ultimate Warm Up on Hilly Route in Watopia",
@@ -431,7 +473,7 @@
       }
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-02-22T11:05:25",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -646,9 +688,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 4.74,
-    "total_tss": 209,
-    "activities_count": 7,
+    "total_training_hours": 6.01,
+    "total_tss": 210,
+    "activities_count": 8,
     "avg_hrv": null,
     "avg_resting_hr": 53.8
   }
