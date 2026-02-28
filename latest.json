@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-02-28T05:02:59.509219",
+    "last_updated": "2026-02-28T05:48:33.206324",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -127,7 +127,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-02-28T05:02:59.509107",
+    "calculation_timestamp": "2026-02-28T05:48:33.206212",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -572,6 +572,15 @@
       "type": "WORKOUT",
       "description": "Warmup\n- Hallo Vellocet wir bereiten die Beine auf die Schwellenarbeit vor 12m ramp 40-75% 90rpm\n\nMain Set\n2x\n- Schwelle halten 20m 98% 85rpm\n- Erholung 5m 50% 95rpm\n\nCooldown\n- Klasse Arbeit Vellocet erhole dich gut nach diesen langen Intervallen 5m ramp 50-40% 85rpm\n\n[Weekly Plan - Build]",
       "planned_tss": 85,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_6",
+      "date": "2026-03-12T09:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "Warmup\n- Hallo Vellocet, lass uns die Beine f\u00fcr die Schwellenarbeit aktivieren 9m ramp 40-75% 85rpm\n\nMain Set\n- Intervall 1: Sweet Spot 8m 88% 90rpm\n- Erholung 4m 55% 85rpm\n- Intervall 2: Controlled Threshold 8m 93% 75rpm\n- Erholung 4m 55% 85rpm\n- Intervall 3: Threshold 8m 98% 95rpm\n- Erholung 4m 55% 85rpm\n- Intervall 4: Over Threshold 6m 102% 90rpm\n\nCooldown\n- Starke Leistung Vellocet, jetzt locker ausfahren und regenerieren 6m ramp 55-40% 85rpm\n\n[Weekly Plan - Build]",
+      "planned_tss": 65,
       "duration_hours": 0.0
     }
   ],
