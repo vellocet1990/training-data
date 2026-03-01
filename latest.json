@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-01T20:47:21.347514",
+    "last_updated": "2026-03-01T21:17:00.668200",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -132,7 +132,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-03-01T20:47:21.347385",
+    "calculation_timestamp": "2026-03-01T21:17:00.668061",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -485,7 +485,7 @@
   "planned_workouts": [
     {
       "id": "event_1",
-      "date": "2026-03-03T09:00:00",
+      "date": "2026-03-04T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
       "description": "Warmup\n- Hallo Vellocet, lass uns die Beine f\u00fcr die Intervalle aktivieren 9m ramp 40-75% 85rpm\n\nMain Set\n4x\n- Threshold Intervall 10m 98% 90rpm\n- Erholung 3m 55% 80rpm\n\nCooldown\n- Saubere Arbeit Vellocet, jetzt locker ausfahren 6m ramp 55-40% 85rpm\n\n[Weekly Plan - Build]",
@@ -494,7 +494,7 @@
     },
     {
       "id": "event_2",
-      "date": "2026-03-05T09:00:00",
+      "date": "2026-03-06T09:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
       "description": "Warmup\n- Hallo Vellocet, lass uns die Beine f\u00fcr die Schwelle aktivieren 9m ramp 40-75% 85rpm\n\nMain Set\n4x\n- Threshold mit Surge 8m 97% 90rpm\n- Power Surge 2m 105% 100rpm\n- Erholung 2m 55% 85rpm\n\nCooldown\n- Klasse Arbeit Vellocet, jetzt gut erholen 6m ramp 55-40% 80rpm\n\n[Weekly Plan - Build]",
