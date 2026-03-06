@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-06T07:56:11.367028",
+    "last_updated": "2026-03-06T08:33:34.658424",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -63,7 +63,7 @@
     },
     "current_metrics": {
       "weight_kg": 86.4,
-      "resting_hr": 56,
+      "resting_hr": 63,
       "hrv": null,
       "sleep_score": null
     }
@@ -71,9 +71,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 52.6,
+    "rhr_baseline_7d": 54.3,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 52.0,
+    "rhr_baseline_28d": 52.4,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.25,
@@ -139,10 +139,10 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-03-06T07:56:11.366862",
+    "calculation_timestamp": "2026-03-06T08:33:34.658268",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 7,
       "activities_28d": 27,
       "planned_workouts_7d": 2,
@@ -155,6 +155,48 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-03-05T18:42:15",
+      "type": "VirtualRide",
+      "name": "Rad indoor",
+      "duration_hours": 1.0,
+      "distance_km": 31.44,
+      "tss": 1,
+      "intensity_factor": 9.988908,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 142,
+      "max_hr": 159,
+      "avg_cadence": null,
+      "avg_speed": 31.4,
+      "max_speed": 31.4,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 639,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 6,
+          "z2_time": 42,
+          "z3_time": 18,
+          "z4_time": 6,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-03-05T18:42:15",
       "type": "VirtualRide",
       "name": "3 sets 10x30/15 120% FTP by LeCoach App",
@@ -200,48 +242,6 @@
           "z4_time": 147,
           "z5_time": 62,
           "z6_time": 752,
-          "z7_time": 0
-        }
-      }
-    },
-    {
-      "id": "activity_2",
-      "date": "2026-03-05T18:42:15",
-      "type": "VirtualRide",
-      "name": "Rad indoor",
-      "duration_hours": 1.0,
-      "distance_km": 31.44,
-      "tss": 1,
-      "intensity_factor": 9.988908,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 142,
-      "max_hr": 159,
-      "avg_cadence": null,
-      "avg_speed": 31.4,
-      "max_speed": 31.4,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": 639,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 6,
-          "z2_time": 42,
-          "z3_time": 18,
-          "z4_time": 6,
-          "z5_time": 0,
-          "z6_time": 0,
           "z7_time": 0
         }
       }
@@ -545,7 +545,7 @@
     {
       "date": "2026-03-05",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 63,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -715,6 +715,6 @@
     "total_tss": 217,
     "activities_count": 7,
     "avg_hrv": null,
-    "avg_resting_hr": 52.6
+    "avg_resting_hr": 54.3
   }
 }
