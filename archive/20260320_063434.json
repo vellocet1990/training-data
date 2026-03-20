@@ -1,0 +1,514 @@
+{
+  "READ_THIS_FIRST": {
+    "instruction_for_ai": "DO NOT calculate totals from individual activities. Use the pre-calculated values in 'summary', 'weekly_summary', and 'derived_metrics' sections below. These are already computed accurately from the API data.",
+    "data_period": "Last 7 days (including today)",
+    "extended_data_note": "ACWR and baselines calculated from 28 days of data",
+    "quick_stats": {
+      "total_training_hours": 2.99,
+      "total_activities": 3,
+      "total_tss": 131
+    }
+  },
+  "metadata": {
+    "athlete_id": "REDACTED",
+    "last_updated": "2026-03-20T05:33:59.991997",
+    "data_range_days": 7,
+    "extended_range_days": 28,
+    "version": "3.2.0"
+  },
+  "summary": {
+    "period_description": "Last 7 days of training (including today)",
+    "note": "Duration calculated from API moving_time field.",
+    "total_duration_decimal_hours": 2.99,
+    "total_activities": 3,
+    "by_activity_type": {
+      "VirtualRide": {
+        "duration_decimal_hours": 2.99,
+        "count": 3,
+        "tss": 131,
+        "distance_km": 93.7
+      }
+    }
+  },
+  "current_status": {
+    "fitness": {
+      "ctl": 17.86,
+      "atl": 15.96,
+      "tsb": 1.9,
+      "ramp_rate": 0.16,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+    },
+    "thresholds": {
+      "ftp_outdoor": 243,
+      "ftp_indoor": 243,
+      "eftp": 240.1,
+      "lthr": 165,
+      "max_hr": 184,
+      "w_prime": 20116,
+      "w_prime_kj": 20.1,
+      "p_max": 754,
+      "vo2max": null
+    },
+    "current_metrics": {
+      "weight_kg": 86.4,
+      "resting_hr": 52,
+      "hrv": null,
+      "sleep_score": null
+    }
+  },
+  "derived_metrics": {
+    "recovery_index": null,
+    "hrv_baseline_7d": null,
+    "rhr_baseline_7d": 58.3,
+    "hrv_baseline_28d": null,
+    "rhr_baseline_28d": 53.7,
+    "latest_hrv": null,
+    "latest_rhr": null,
+    "acwr": 0.99,
+    "acwr_interpretation": "optimal",
+    "monotony": 0.58,
+    "monotony_interpretation": "normal",
+    "strain": 76.0,
+    "stress_tolerance": 1.3,
+    "load_recovery_ratio": null,
+    "tss_7d_total": 131.0,
+    "tss_28d_total": 530.0,
+    "zone_distribution_7d": {
+      "z1_hours": 0.16,
+      "z2_hours": 1.0,
+      "z3_hours": 0.27,
+      "z4_plus_hours": 0.57,
+      "total_hours": 2.0
+    },
+    "grey_zone_percentage": 13.3,
+    "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
+    "quality_intensity_percentage": 28.4,
+    "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
+    "polarisation_index": 0.58,
+    "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
+    "consistency_index": 0.67,
+    "consistency_details": {
+      "planned_days": 3,
+      "completed_days": 2,
+      "matched_days": 2,
+      "planned_dates": [
+        "2026-03-16",
+        "2026-03-18",
+        "2026-03-20"
+      ],
+      "completed_dates": [
+        "2026-03-16",
+        "2026-03-18"
+      ]
+    },
+    "phase_detected": "Taper",
+    "phase_triggers": [
+      "TSB 1.9 positive",
+      "CTL stable/declining"
+    ],
+    "seasonal_context": "Late Base / Build",
+    "benchmark_indoor": {
+      "current_ftp": 243,
+      "ftp_8_weeks_ago": null,
+      "benchmark_index": null,
+      "benchmark_percentage": null,
+      "seasonal_expected": null
+    },
+    "benchmark_outdoor": {
+      "current_ftp": 243,
+      "ftp_8_weeks_ago": null,
+      "benchmark_index": null,
+      "benchmark_percentage": null,
+      "seasonal_expected": null
+    },
+    "eftp": 240.1,
+    "w_prime": 20116,
+    "w_prime_kj": 20.1,
+    "p_max": 754,
+    "power_model_source": "wellness.sportInfo",
+    "vo2max": null,
+    "sleep_score": null,
+    "calculation_timestamp": "2026-03-20T05:33:59.991861",
+    "data_quality": {
+      "hrv_data_points": 0,
+      "rhr_data_points": 3,
+      "activities_7d": 3,
+      "activities_28d": 18,
+      "planned_workouts_7d": 3,
+      "ftp_history_days": {
+        "indoor": 6,
+        "outdoor": 19
+      }
+    }
+  },
+  "recent_activities": [
+    {
+      "id": "activity_1",
+      "date": "2026-03-18T19:38:42",
+      "type": "VirtualRide",
+      "name": "Zwift - : 3x12m 90% FTP",
+      "duration_hours": 1.01,
+      "distance_km": 31.4,
+      "tss": 1,
+      "intensity_factor": 9.943538,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 135,
+      "max_hr": 150,
+      "avg_cadence": null,
+      "avg_speed": 31.0,
+      "max_speed": 31.0,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 652,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 18,
+          "z2_time": 24,
+          "z3_time": 18,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
+      "date": "2026-03-18T19:38:42",
+      "type": "VirtualRide",
+      "name": "3x12m 90% FTP by LeCoach App",
+      "duration_hours": 1.01,
+      "distance_km": 31.4,
+      "tss": 68,
+      "intensity_factor": 81.893005,
+      "avg_power": 188,
+      "normalized_power": 199,
+      "avg_hr": 145,
+      "max_hr": 161,
+      "avg_cadence": 82.68208,
+      "avg_speed": 31.2,
+      "max_speed": 58.9,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 685.5,
+      "calories": 652,
+      "carbs_used": 160,
+      "carbs_ingested": null,
+      "variability_index": 1.0585107,
+      "decoupling": 2.4246013,
+      "elevation_m": 255.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 694,
+          "z2_time": 879,
+          "z3_time": 979,
+          "z4_time": 1091,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 204,
+          "z2_time": 1186,
+          "z3_time": 894,
+          "z4_time": 1359,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_3",
+      "date": "2026-03-16T19:42:25",
+      "type": "VirtualRide",
+      "name": "2 sets 10x30/15 125% FTP by LeCoach App",
+      "duration_hours": 0.97,
+      "distance_km": 30.88,
+      "tss": 62,
+      "intensity_factor": 80.24691,
+      "avg_power": 177,
+      "normalized_power": 195,
+      "avg_hr": 139,
+      "max_hr": 165,
+      "avg_cadence": 86.203674,
+      "avg_speed": 31.8,
+      "max_speed": 53.3,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 617.4,
+      "calories": 589,
+      "carbs_used": 159,
+      "carbs_ingested": null,
+      "variability_index": 1.101695,
+      "decoupling": 17.371744,
+      "elevation_m": 124.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 877,
+          "z2_time": 1661,
+          "z3_time": 299,
+          "z4_time": 626,
+          "z5_time": 26,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 368,
+          "z2_time": 2391,
+          "z3_time": 48,
+          "z4_time": 122,
+          "z5_time": 40,
+          "z6_time": 520,
+          "z7_time": 0
+        }
+      }
+    }
+  ],
+  "wellness_data": [
+    {
+      "date": "2026-03-14",
+      "weight_kg": null,
+      "resting_hr": 64,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.09,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-03-15",
+      "weight_kg": null,
+      "resting_hr": 59,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": 8.47,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-03-16",
+      "weight_kg": null,
+      "resting_hr": 52,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-03-17",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-03-18",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-03-19",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-03-20",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    }
+  ],
+  "planned_workouts": [
+    {
+      "id": "event_1",
+      "date": "2026-03-20T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n4x\n-8m 100% FTP\n-2m 60% FTP\n\n-7m 55% FTP",
+      "planned_tss": 77,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_2",
+      "date": "2026-03-22T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n-50m 68% FTP\n-5m 50% FTP",
+      "planned_tss": 44,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_3",
+      "date": "2026-03-24T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n6x\n-3m 115% FTP\n-3m 50% FTP\n\n-11m 65% FTP",
+      "planned_tss": 76,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_4",
+      "date": "2026-03-26T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n4x\n-8m 98% FTP 65RPM\n-2m 60% FTP\n\n-7m 50% FTP",
+      "planned_tss": 74,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_5",
+      "date": "2026-03-28T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n4x\n-8m 108% FTP 105RPM\n-3m 55% FTP\n\n-3m 50% FTP",
+      "planned_tss": 88,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_6",
+      "date": "2026-03-29T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n-50m 72% FTP\n-5m 50% FTP",
+      "planned_tss": 48,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_7",
+      "date": "2026-03-31T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m 50% FTP\n-1m 65% FTP\n-1m 70% FTP\n-1m 75% FTP\n-1m 80% FTP\n-1m 85% FTP\n-1m 90% FTP\n-1m 95% FTP\n-1m 100% FTP\n-1m 105% FTP\n-1m 110% FTP\n-1m 115% FTP\n-1m 120% FTP\n-1m 125% FTP\n-1m 130% FTP\n-1m 135% FTP\n-1m 140% FTP\n-1m 145% FTP\n-1m 150% FTP\n-1m 155% FTP\n-1m 160% FTP\n-1m 165% FTP\n-1m 170% FTP\n-1m 175% FTP\n-1m 180% FTP\n-1m 185% FTP\n-5m 50% FTP",
+      "planned_tss": 94,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_8",
+      "date": "2026-04-02T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n4x\n-7m30s 95% FTP 65RPM\n-2m30s 60% FTP\n\n-10m 50% FTP",
+      "planned_tss": 70,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_9",
+      "date": "2026-04-04T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n5x\n-4m 110% FTP 105RPM\n-4m 50% FTP\n\n-7m 60% FTP",
+      "planned_tss": 74,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_10",
+      "date": "2026-04-05T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n-50m 70% FTP\n-5m 50% FTP",
+      "planned_tss": 46,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_11",
+      "date": "2026-04-07T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n8x\n-40s 135% FTP\n-20s 50% FTP\n\n-4m 60% FTP\n\n8x\n-40s 135% FTP\n-20s 50% FTP\n\n-4m 60% FTP\n\n8x\n-40s 135% FTP\n-20s 50% FTP\n\n-6m 50% FTP",
+      "planned_tss": 77,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_12",
+      "date": "2026-04-09T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n2x\n-20m 90% FTP\n-3m 60% FTP\n\n-1m 55% FTP",
+      "planned_tss": 70,
+      "duration_hours": 0.0
+    }
+  ],
+  "weekly_summary": {
+    "total_training_hours": 2.99,
+    "total_tss": 131,
+    "activities_count": 3,
+    "avg_hrv": null,
+    "avg_resting_hr": 58.3
+  }
+}
