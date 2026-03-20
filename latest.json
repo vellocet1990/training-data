@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 3.57,
-      "total_activities": 4,
-      "total_tss": 136
+      "total_training_hours": 3.71,
+      "total_activities": 5,
+      "total_tss": 141
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-20T16:41:54.755031",
+    "last_updated": "2026-03-20T17:24:05.515672",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,9 +19,15 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 3.57,
-    "total_activities": 4,
+    "total_duration_decimal_hours": 3.71,
+    "total_activities": 5,
     "by_activity_type": {
+      "Ride": {
+        "duration_decimal_hours": 0.14,
+        "count": 1,
+        "tss": 5,
+        "distance_km": 2.3
+      },
       "VirtualRide": {
         "duration_decimal_hours": 2.99,
         "count": 3,
@@ -38,10 +44,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 19.79,
-      "atl": 26.88,
-      "tsb": -7.09,
-      "ramp_rate": 2.09,
+      "ctl": 19.91,
+      "atl": 27.54,
+      "tsb": -7.63,
+      "ramp_rate": 2.2,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -70,33 +76,33 @@
     "rhr_baseline_28d": 53.8,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.02,
+    "acwr": 1.04,
     "acwr_interpretation": "optimal",
-    "monotony": 0.62,
+    "monotony": 0.64,
     "monotony_interpretation": "normal",
-    "strain": 84.0,
+    "strain": 90.0,
     "stress_tolerance": 1.4,
     "load_recovery_ratio": null,
-    "tss_7d_total": 136.0,
-    "tss_28d_total": 535.0,
+    "tss_7d_total": 141.0,
+    "tss_28d_total": 540.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.81,
-      "z2_hours": 1.0,
+      "z1_hours": 0.96,
+      "z2_hours": 1.03,
       "z3_hours": 0.27,
       "z4_plus_hours": 0.57,
-      "total_hours": 2.64
+      "total_hours": 2.82
     },
-    "grey_zone_percentage": 10.1,
+    "grey_zone_percentage": 9.5,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 21.4,
+    "quality_intensity_percentage": 20.1,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.68,
+    "polarisation_index": 0.7,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": 0.67,
+    "consistency_index": 1.0,
     "consistency_details": {
       "planned_days": 3,
-      "completed_days": 2,
-      "matched_days": 2,
+      "completed_days": 3,
+      "matched_days": 3,
       "planned_dates": [
         "2026-03-16",
         "2026-03-18",
@@ -104,13 +110,14 @@
       ],
       "completed_dates": [
         "2026-03-16",
-        "2026-03-18"
+        "2026-03-18",
+        "2026-03-20"
       ]
     },
     "phase_detected": "Build",
     "phase_triggers": [
-      "ACWR 1.02 in 1.0-1.3",
-      "Quality Intensity 21.4% in 15-25%"
+      "ACWR 1.04 in 1.0-1.3",
+      "Quality Intensity 20.1% in 15-25%"
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -134,12 +141,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-03-20T16:41:54.754901",
+    "calculation_timestamp": "2026-03-20T17:24:05.515537",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
-      "activities_7d": 4,
-      "activities_28d": 19,
+      "activities_7d": 5,
+      "activities_28d": 20,
       "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 6,
@@ -150,6 +157,48 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-03-20T15:21:37",
+      "type": "Ride",
+      "name": "Training Session",
+      "duration_hours": 0.14,
+      "distance_km": 2.35,
+      "tss": 5,
+      "intensity_factor": 51.26146,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 114,
+      "max_hr": 142,
+      "avg_cadence": null,
+      "avg_speed": 12.4,
+      "max_speed": 30.9,
+      "avg_pace": null,
+      "avg_temp": 13.0,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 83,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": 33.800003,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 530,
+          "z2_time": 109,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-03-20T13:55:35",
       "type": "Walk",
       "name": "Training Session",
@@ -191,7 +240,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-03-18T19:38:42",
       "type": "VirtualRide",
       "name": "Zwift - : 3x12m 90% FTP",
@@ -233,7 +282,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-03-18T19:38:42",
       "type": "VirtualRide",
       "name": "3x12m 90% FTP by LeCoach App",
@@ -284,7 +333,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-03-16T19:42:25",
       "type": "VirtualRide",
       "name": "2 sets 10x30/15 125% FTP by LeCoach App",
@@ -553,9 +602,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 3.57,
-    "total_tss": 136,
-    "activities_count": 4,
+    "total_training_hours": 3.71,
+    "total_tss": 141,
+    "activities_count": 5,
     "avg_hrv": null,
     "avg_resting_hr": 57.8
   }
