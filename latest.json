@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 6.72,
-      "total_activities": 7,
-      "total_tss": 244
+      "total_training_hours": 7.76,
+      "total_activities": 8,
+      "total_tss": 245
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-22T10:59:17.172202",
+    "last_updated": "2026-03-22T11:28:24.403841",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,8 +19,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 6.72,
-    "total_activities": 7,
+    "total_duration_decimal_hours": 7.76,
+    "total_activities": 8,
     "by_activity_type": {
       "Hike": {
         "duration_decimal_hours": 1.96,
@@ -35,10 +35,10 @@
         "distance_km": 2.3
       },
       "VirtualRide": {
-        "duration_decimal_hours": 4.03,
-        "count": 4,
-        "tss": 210,
-        "distance_km": 123.7
+        "duration_decimal_hours": 5.08,
+        "count": 5,
+        "tss": 211,
+        "distance_km": 153.7
       },
       "Walk": {
         "duration_decimal_hours": 0.58,
@@ -50,10 +50,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 19.66,
-      "atl": 26.28,
-      "tsb": -6.62,
-      "ramp_rate": 2.78,
+      "ctl": 19.69,
+      "atl": 26.41,
+      "tsb": -6.72,
+      "ramp_rate": 2.81,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -86,17 +86,17 @@
     "acwr_interpretation": "danger",
     "monotony": 1.02,
     "monotony_interpretation": "normal",
-    "strain": 249.0,
-    "stress_tolerance": 2.4,
+    "strain": 250.0,
+    "stress_tolerance": 2.5,
     "load_recovery_ratio": null,
-    "tss_7d_total": 244.0,
-    "tss_28d_total": 582.0,
+    "tss_7d_total": 245.0,
+    "tss_28d_total": 583.0,
     "zone_distribution_7d": {
       "z1_hours": 2.8,
-      "z2_hours": 1.43,
+      "z2_hours": 1.44,
       "z3_hours": 0.28,
       "z4_plus_hours": 1.12,
-      "total_hours": 5.62
+      "total_hours": 5.63
     },
     "grey_zone_percentage": 4.9,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
@@ -147,12 +147,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-03-22T10:59:17.172032",
+    "calculation_timestamp": "2026-03-22T11:28:24.403698",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
-      "activities_7d": 7,
-      "activities_28d": 18,
+      "activities_7d": 8,
+      "activities_28d": 19,
       "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 6,
@@ -214,6 +214,48 @@
     },
     {
       "id": "activity_2",
+      "date": "2026-03-22T10:01:07",
+      "type": "VirtualRide",
+      "name": "Rad indoor",
+      "duration_hours": 1.04,
+      "distance_km": 30.01,
+      "tss": 1,
+      "intensity_factor": 9.792738,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 138,
+      "max_hr": 149,
+      "avg_cadence": null,
+      "avg_speed": 28.8,
+      "max_speed": 28.8,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 697,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 12,
+          "z2_time": 18,
+          "z3_time": 6,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_3",
       "date": "2026-03-21T10:52:46",
       "type": "Hike",
       "name": "Training Session",
@@ -255,7 +297,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-03-20T15:21:37",
       "type": "Ride",
       "name": "Training Session",
@@ -297,7 +339,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-03-20T13:55:35",
       "type": "Walk",
       "name": "Training Session",
@@ -339,7 +381,7 @@
       }
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-03-18T19:38:42",
       "type": "VirtualRide",
       "name": "3x12m 90% FTP by LeCoach App",
@@ -390,7 +432,7 @@
       }
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-03-18T19:38:42",
       "type": "VirtualRide",
       "name": "Zwift - : 3x12m 90% FTP",
@@ -432,7 +474,7 @@
       }
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-03-16T19:42:25",
       "type": "VirtualRide",
       "name": "2 sets 10x30/15 125% FTP by LeCoach App",
@@ -710,9 +752,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 6.72,
-    "total_tss": 244,
-    "activities_count": 7,
+    "total_training_hours": 7.76,
+    "total_tss": 245,
+    "activities_count": 8,
     "avg_hrv": null,
     "avg_resting_hr": 52.5
   }
