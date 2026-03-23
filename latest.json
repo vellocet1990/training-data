@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-23T21:54:37.850962",
+    "last_updated": "2026-03-23T22:25:42.713099",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -151,7 +151,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-03-23T21:54:37.850784",
+    "calculation_timestamp": "2026-03-23T22:25:42.712940",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
@@ -630,20 +630,20 @@
   "planned_workouts": [
     {
       "id": "event_1",
-      "date": "2026-03-24T00:00:00",
+      "date": "2026-03-25T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n6x\n-3m 115% FTP 75RPM\n-3m 50% FTP\n\n-11m 65% FTP",
-      "planned_tss": 76,
+      "description": "-1h50m 60% FTP",
+      "planned_tss": 65,
       "duration_hours": 0.0
     },
     {
       "id": "event_2",
-      "date": "2026-03-26T00:00:00",
+      "date": "2026-03-25T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n4x\n-8m 98% FTP 65RPM\n-2m 60% FTP\n\n-7m 50% FTP",
-      "planned_tss": 74,
+      "description": "-1h50m 55% FTP",
+      "planned_tss": 55,
       "duration_hours": 0.0
     },
     {
