@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-23T23:59:43.664682",
+    "last_updated": "2026-03-24T02:39:23.117628",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -56,10 +56,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 19.22,
-      "atl": 25.03,
-      "tsb": -5.81,
-      "ramp_rate": 1.28,
+      "ctl": 18.77,
+      "atl": 21.69,
+      "tsb": -2.92,
+      "ramp_rate": 1.25,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -85,7 +85,7 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": 54.5,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 54.0,
+    "rhr_baseline_28d": 53.9,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.33,
@@ -151,7 +151,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-03-23T23:59:43.664518",
+    "calculation_timestamp": "2026-03-24T02:39:23.117495",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
@@ -522,21 +522,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-03-17",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-03-18",
       "weight_kg": null,
       "resting_hr": null,
@@ -613,6 +598,21 @@
     },
     {
       "date": "2026-03-23",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-03-24",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
@@ -734,6 +734,15 @@
       "type": "WORKOUT",
       "description": "-5m ramp 50-65% FTP\n-50m 75% FTP\n-5m 50% FTP",
       "planned_tss": 52,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_13",
+      "date": "2026-04-14T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n5x\n-5m 112% FTP\n-3m 50% FTP\n\n-7m 60% FTP",
+      "planned_tss": 84,
       "duration_hours": 0.0
     }
   ],
