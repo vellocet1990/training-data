@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-15T17:46:08.638762",
+    "last_updated": "2026-04-15T19:05:48.966709",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -50,26 +50,26 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 28.19,
-      "atl": 36.49,
-      "tsb": -8.3,
-      "ramp_rate": 1.46,
+      "ctl": 26.26,
+      "atl": 26.8,
+      "tsb": -0.54,
+      "ramp_rate": -0.47,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 243,
       "ftp_indoor": 243,
-      "eftp": 237.5,
+      "eftp": 237.2,
       "lthr": 165,
       "max_hr": 184,
-      "w_prime": 19896,
+      "w_prime": 19876,
       "w_prime_kj": 19.9,
-      "p_max": 746,
+      "p_max": 745,
       "vo2max": null
     },
     "current_metrics": {
       "weight_kg": 86.4,
-      "resting_hr": 50,
+      "resting_hr": 46,
       "hrv": null,
       "sleep_score": null
     }
@@ -77,11 +77,11 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 52.4,
+    "rhr_baseline_7d": 51.3,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 52.2,
+    "rhr_baseline_28d": 51.9,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 46,
     "acwr": 0.76,
     "acwr_interpretation": "undertraining",
     "monotony": 0.74,
@@ -138,17 +138,17 @@
       "benchmark_percentage": "+0.0%",
       "seasonal_expected": false
     },
-    "eftp": 237.5,
-    "w_prime": 19896,
+    "eftp": 237.2,
+    "w_prime": 19876,
     "w_prime_kj": 19.9,
-    "p_max": 746,
+    "p_max": 745,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-04-15T17:46:08.638618",
+    "calculation_timestamp": "2026-04-15T19:05:48.966580",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 5,
       "activities_28d": 21,
       "planned_workouts_7d": 3,
@@ -473,7 +473,7 @@
     {
       "date": "2026-04-15",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 46,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -492,7 +492,7 @@
       "date": "2026-04-15T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n3x\n-10m 108% FTP 105RPM\n-5m 60% FTP\n\n-2m 50% FTP",
+      "description": "-5m ramp 50-65% FTP 134% LTHR\n\n3x\n-30s 100% FTP 161% LTHR\n-30s 55% FTP 132% LTHR\n\n-5m 60% FTP 136% LTHR\n\n3x\n-10m 108% FTP 105RPM 157% LTHR\n-5m 60% FTP 136% LTHR\n\n-2m 50% FTP 125% LTHR",
       "planned_tss": 86,
       "duration_hours": 0.0
     },
@@ -501,7 +501,7 @@
       "date": "2026-04-16T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n3x\n-10m 100% FTP 65RPM\n-5m 55% FTP\n\n-2m 50% FTP",
+      "description": "-5m ramp 50-65% FTP 134% LTHR\n\n3x\n-30s 100% FTP 161% LTHR\n-30s 55% FTP 132% LTHR\n\n-5m 60% FTP 136% LTHR\n\n3x\n-10m 100% FTP 65RPM 161% LTHR\n-5m 55% FTP 132% LTHR\n\n-2m 50% FTP 125% LTHR",
       "planned_tss": 75,
       "duration_hours": 0.0
     },
@@ -510,7 +510,7 @@
       "date": "2026-04-17T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-5m ramp 50-65% FTP\n-50m 70% FTP\n-5m 50% FTP",
+      "description": "-5m ramp 50-65% FTP 134% LTHR\n-50m 70% FTP 143% LTHR\n-5m 50% FTP 125% LTHR",
       "planned_tss": 46,
       "duration_hours": 0.0
     },
@@ -519,7 +519,7 @@
       "date": "2026-04-21T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-5m ramp 50-65% FTP\n\n8x\n-30s 130% FTP\n-30s 50% FTP\n\n-22m 60% FTP",
+      "description": "-5m ramp 50-65% FTP 134% LTHR\n\n8x\n-30s 130% FTP 112% LTHR\n-30s 50% FTP 125% LTHR\n\n-22m 60% FTP 136% LTHR",
       "planned_tss": 32,
       "duration_hours": 0.0
     },
@@ -528,7 +528,7 @@
       "date": "2026-04-23T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-40m 55% FTP",
+      "description": "-40m 55% FTP 132% LTHR",
       "planned_tss": 20,
       "duration_hours": 0.0
     },
@@ -537,7 +537,7 @@
       "date": "2026-04-25T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-35m 65% FTP\n-5m 50% FTP",
+      "description": "-35m 65% FTP 140% LTHR\n-5m 50% FTP 125% LTHR",
       "planned_tss": 27,
       "duration_hours": 0.0
     },
@@ -546,7 +546,7 @@
       "date": "2026-04-26T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-35m 55% FTP",
+      "description": "-35m 55% FTP 132% LTHR",
       "planned_tss": 17,
       "duration_hours": 0.0
     },
@@ -555,7 +555,7 @@
       "date": "2026-04-28T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-5m 50% FTP\n-1m 65% FTP\n-1m 70% FTP\n-1m 75% FTP\n-1m 80% FTP\n-1m 85% FTP\n-1m 90% FTP\n-1m 95% FTP\n-1m 100% FTP\n-1m 105% FTP\n-1m 110% FTP\n-1m 115% FTP\n-1m 120% FTP\n-1m 125% FTP\n-1m 130% FTP\n-1m 135% FTP\n-1m 140% FTP\n-1m 145% FTP\n-1m 150% FTP\n-1m 155% FTP\n-1m 160% FTP\n-1m 165% FTP\n-1m 170% FTP\n-1m 175% FTP\n-1m 180% FTP\n-1m 185% FTP\n-5m 50% FTP",
+      "description": "-5m 50% FTP 125% LTHR\n-1m 65% FTP 140% LTHR\n-1m 70% FTP 143% LTHR\n-1m 75% FTP 147% LTHR\n-1m 80% FTP 150% LTHR\n-1m 85% FTP 152% LTHR\n-1m 90% FTP 154% LTHR\n-1m 95% FTP 158% LTHR\n-1m 100% FTP 161% LTHR\n-1m 105% FTP 164% LTHR\n-1m 110% FTP 150% LTHR\n-1m 115% FTP 131% LTHR\n-1m 120% FTP 112% LTHR\n-1m 125% FTP 112% LTHR\n-1m 130% FTP 112% LTHR\n-1m 135% FTP 112% LTHR\n-1m 140% FTP 112% LTHR\n-1m 145% FTP 112% LTHR\n-1m 150% FTP 112% LTHR\n-1m 155% FTP 112% LTHR\n-1m 160% FTP 112% LTHR\n-1m 165% FTP 112% LTHR\n-1m 170% FTP 112% LTHR\n-1m 175% FTP 112% LTHR\n-1m 180% FTP 112% LTHR\n-1m 185% FTP 112% LTHR\n-5m 50% FTP 125% LTHR",
       "planned_tss": 94,
       "duration_hours": 0.0
     },
@@ -564,7 +564,7 @@
       "date": "2026-04-30T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-5m ramp 50-65% FTP\n\n2x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n2x\n-3m 120% FTP\n-5m 50% FTP\n\n-4m 50% FTP",
+      "description": "-5m ramp 50-65% FTP 134% LTHR\n\n2x\n-30s 100% FTP 161% LTHR\n-30s 55% FTP 132% LTHR\n\n-5m 60% FTP 136% LTHR\n\n2x\n-3m 120% FTP 112% LTHR\n-5m 50% FTP 125% LTHR\n\n-4m 50% FTP 125% LTHR",
       "planned_tss": 36,
       "duration_hours": 0.0
     },
@@ -592,6 +592,6 @@
     "total_tss": 207,
     "activities_count": 5,
     "avg_hrv": null,
-    "avg_resting_hr": 52.4
+    "avg_resting_hr": 51.3
   }
 }
