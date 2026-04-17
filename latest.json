@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 6.78,
-      "total_activities": 7,
-      "total_tss": 249
+      "total_training_hours": 8.73,
+      "total_activities": 10,
+      "total_tss": 314
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-17T17:43:01.752989",
+    "last_updated": "2026-04-17T18:36:15.418024",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,8 +19,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 6.78,
-    "total_activities": 7,
+    "total_duration_decimal_hours": 8.73,
+    "total_activities": 10,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 2.01,
@@ -29,10 +29,10 @@
         "distance_km": 30.9
       },
       "VirtualRide": {
-        "duration_decimal_hours": 2.51,
-        "count": 3,
-        "tss": 112,
-        "distance_km": 72.5
+        "duration_decimal_hours": 4.46,
+        "count": 6,
+        "tss": 177,
+        "distance_km": 125.4
       },
       "Walk": {
         "duration_decimal_hours": 0.23,
@@ -50,10 +50,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 27.6,
-      "atl": 32.73,
-      "tsb": -5.13,
-      "ramp_rate": 0.46,
+      "ctl": 29.13,
+      "atl": 41.39,
+      "tsb": -12.26,
+      "ramp_rate": 1.99,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -64,7 +64,7 @@
       "max_hr": 184,
       "w_prime": 19876,
       "w_prime_kj": 19.9,
-      "p_max": 745,
+      "p_max": 808,
       "vo2max": null
     },
     "current_metrics": {
@@ -82,27 +82,27 @@
     "rhr_baseline_28d": 51.8,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.83,
+    "acwr": 1.0,
     "acwr_interpretation": "optimal",
-    "monotony": 0.94,
+    "monotony": 0.96,
     "monotony_interpretation": "normal",
-    "strain": 234.0,
-    "stress_tolerance": 2.5,
+    "strain": 301.0,
+    "stress_tolerance": 3.1,
     "load_recovery_ratio": null,
-    "tss_7d_total": 249.0,
-    "tss_28d_total": 1193.0,
+    "tss_7d_total": 314.0,
+    "tss_28d_total": 1258.0,
     "zone_distribution_7d": {
-      "z1_hours": 3.38,
-      "z2_hours": 1.03,
-      "z3_hours": 0.58,
-      "z4_plus_hours": 0.81,
-      "total_hours": 5.8
+      "z1_hours": 3.5,
+      "z2_hours": 1.23,
+      "z3_hours": 0.77,
+      "z4_plus_hours": 1.02,
+      "total_hours": 6.53
     },
-    "grey_zone_percentage": 10.0,
+    "grey_zone_percentage": 11.9,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 14.0,
+    "quality_intensity_percentage": 15.6,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.76,
+    "polarisation_index": 0.73,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "consistency_index": 0.5,
     "consistency_details": {
@@ -121,10 +121,10 @@
         "2026-04-17"
       ]
     },
-    "phase_detected": "Base",
+    "phase_detected": "Build",
     "phase_triggers": [
-      "ACWR 0.83 in 0.8-1.0",
-      "Quality Intensity 14.0% < 15%"
+      "ACWR 1.0 in 1.0-1.3",
+      "Quality Intensity 15.6% in 15-25%"
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -144,16 +144,16 @@
     "eftp": 237.2,
     "w_prime": 19876,
     "w_prime_kj": 19.9,
-    "p_max": 745,
+    "p_max": 808,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-04-17T17:43:01.752845",
+    "calculation_timestamp": "2026-04-17T18:36:15.417888",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
-      "activities_7d": 7,
-      "activities_28d": 22,
+      "activities_7d": 10,
+      "activities_28d": 25,
       "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 6,
@@ -164,6 +164,131 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-04-17T19:31:25",
+      "type": "VirtualRide",
+      "name": "Rad indoor",
+      "duration_hours": 0.73,
+      "distance_km": 20.36,
+      "tss": 0,
+      "intensity_factor": 0.0,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 97,
+      "max_hr": 128,
+      "avg_cadence": null,
+      "avg_speed": 28.0,
+      "max_speed": 28.0,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 489,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 21,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
+      "date": "2026-04-17T19:31:25",
+      "type": "VirtualRide",
+      "name": "Zwift - Felix Stemeseder's Meetup on Hell of the North in France",
+      "duration_hours": 0.72,
+      "distance_km": 20.36,
+      "tss": 65,
+      "intensity_factor": 95.06173,
+      "avg_power": 196,
+      "normalized_power": 231,
+      "avg_hr": 146,
+      "max_hr": 170,
+      "avg_cadence": 92.71013,
+      "avg_speed": 28.0,
+      "max_speed": 50.4,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 512.5,
+      "calories": 489,
+      "carbs_used": 154,
+      "carbs_ingested": null,
+      "variability_index": 1.1785715,
+      "decoupling": 4.238071,
+      "elevation_m": 270.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 549,
+          "z2_time": 407,
+          "z3_time": 737,
+          "z4_time": 659,
+          "z5_time": 149,
+          "z6_time": 93,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 402,
+          "z2_time": 752,
+          "z3_time": 704,
+          "z4_time": 404,
+          "z5_time": 132,
+          "z6_time": 126,
+          "z7_time": 74
+        }
+      }
+    },
+    {
+      "id": "activity_3",
+      "date": "2026-04-17T15:44:58",
+      "type": "VirtualRide",
+      "name": "Rad indoor",
+      "duration_hours": 0.5,
+      "distance_km": 12.14,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": 24.3,
+      "max_speed": 24.3,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 375,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_4",
       "date": "2026-04-17T15:44:58",
       "type": "VirtualRide",
       "name": "Endurance Aerobic by LeCoach App",
@@ -214,7 +339,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_5",
       "date": "2026-04-15T20:19:33",
       "type": "VirtualRide",
       "name": "3x10m 108% FTP 105RPM by LeCoach App",
@@ -265,7 +390,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_6",
       "date": "2026-04-15T20:19:33",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -307,7 +432,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_7",
       "date": "2026-04-13T16:32:28",
       "type": "Workout",
       "name": "Training Session",
@@ -349,7 +474,7 @@
       }
     },
     {
-      "id": "activity_5",
+      "id": "activity_8",
       "date": "2026-04-13T16:31:49",
       "type": "Workout",
       "name": "Training Session",
@@ -391,7 +516,7 @@
       }
     },
     {
-      "id": "activity_6",
+      "id": "activity_9",
       "date": "2026-04-12T11:30:09",
       "type": "Ride",
       "name": "Training Session",
@@ -433,7 +558,7 @@
       }
     },
     {
-      "id": "activity_7",
+      "id": "activity_10",
       "date": "2026-04-11T16:46:26",
       "type": "Walk",
       "name": "Training Session",
@@ -666,9 +791,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 6.78,
-    "total_tss": 249,
-    "activities_count": 7,
+    "total_training_hours": 8.73,
+    "total_tss": 314,
+    "activities_count": 10,
     "avg_hrv": null,
     "avg_resting_hr": 51.7
   }
