@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-21T14:44:10.121513",
+    "last_updated": "2026-04-21T15:58:08.139802",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -130,7 +130,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-04-21T14:44:10.121386",
+    "calculation_timestamp": "2026-04-21T15:58:08.139651",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -146,48 +146,6 @@
   "recent_activities": [
     {
       "id": "activity_1",
-      "date": "2026-04-17T19:31:25",
-      "type": "VirtualRide",
-      "name": "Rad indoor",
-      "duration_hours": 0.73,
-      "distance_km": 20.36,
-      "tss": 0,
-      "intensity_factor": 0.0,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 97,
-      "max_hr": 128,
-      "avg_cadence": null,
-      "avg_speed": 28.0,
-      "max_speed": 28.0,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": 489,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 21,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      }
-    },
-    {
-      "id": "activity_2",
       "date": "2026-04-17T19:31:25",
       "type": "VirtualRide",
       "name": "Zwift - Felix Stemeseder's Meetup on Hell of the North in France",
@@ -234,6 +192,48 @@
           "z5_time": 132,
           "z6_time": 126,
           "z7_time": 74
+        }
+      }
+    },
+    {
+      "id": "activity_2",
+      "date": "2026-04-17T19:31:25",
+      "type": "VirtualRide",
+      "name": "Rad indoor",
+      "duration_hours": 0.73,
+      "distance_km": 20.36,
+      "tss": 0,
+      "intensity_factor": 0.0,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 97,
+      "max_hr": 128,
+      "avg_cadence": null,
+      "avg_speed": 28.0,
+      "max_speed": 28.0,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 489,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 21,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
         }
       }
     },
@@ -592,6 +592,42 @@
       "type": "RACE_A",
       "description": "",
       "planned_tss": null,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_9",
+      "date": "2026-05-03T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP 70% LTHR\n-80m 65% FTP 76% LTHR\n-5m 50% FTP 67% LTHR",
+      "planned_tss": 61,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_10",
+      "date": "2026-05-06T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP 70% LTHR\n\n3x\n-30s 100% FTP 100% LTHR\n-30s 55% FTP 68% LTHR\n\n-5m 60% FTP 72% LTHR\n\n4x\n-8m 95% FTP 65RPM 97% LTHR\n-4m 55% FTP 68% LTHR\n\n-4m 50% FTP 67% LTHR",
+      "planned_tss": 73,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_11",
+      "date": "2026-05-08T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP 70% LTHR\n\n3x\n-30s 100% FTP 100% LTHR\n-30s 55% FTP 68% LTHR\n\n-5m 60% FTP 72% LTHR\n\n8x\n-1m 130% FTP 112% LTHR\n-2m 50% FTP 67% LTHR\n\n-10m 50% FTP 67% LTHR",
+      "planned_tss": 54,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_12",
+      "date": "2026-05-10T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP 70% LTHR\n-80m 68% FTP 78% LTHR\n-5m 50% FTP 67% LTHR",
+      "planned_tss": 67,
       "duration_hours": 0.0
     }
   ],
