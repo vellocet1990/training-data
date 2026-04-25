@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-25T17:55:41.374467",
+    "last_updated": "2026-04-25T18:42:01.950784",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -118,7 +118,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-04-25T17:55:41.374294",
+    "calculation_timestamp": "2026-04-25T18:42:01.950622",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -245,8 +245,8 @@
       "date": "2026-04-25T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
-      "description": "-5m ramp 50-65% FTP 134% LTHR\n\n2x\n-2m 90% FTP 154% LTHR\n-3m 60% FTP 136% LTHR\n\n-45m 65% FTP 140% LTHR",
-      "planned_tss": 44,
+      "description": "-5m ramp 50-65% FTP 82% LTHR\n\n-55m 70% FTP 87% LTHR",
+      "planned_tss": 48,
       "duration_hours": 0.0
     },
     {
