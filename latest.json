@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-27T23:37:35.959275",
+    "last_updated": "2026-04-28T01:21:27.660688",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -38,21 +38,21 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 24.06,
-      "atl": 16.68,
-      "tsb": 7.38,
-      "ramp_rate": -3.06,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 23.49,
+      "atl": 14.46,
+      "tsb": 9.03,
+      "ramp_rate": -2.99,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 243,
       "ftp_indoor": 243,
-      "eftp": 235.1,
+      "eftp": 234.9,
       "lthr": 165,
       "max_hr": 184,
-      "w_prime": 19698,
+      "w_prime": 19678,
       "w_prime_kj": 19.7,
-      "p_max": 801,
+      "p_max": 800,
       "vo2max": null
     },
     "current_metrics": {
@@ -67,10 +67,10 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": 51.6,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 52.0,
+    "rhr_baseline_28d": 52,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.37,
+    "acwr": 0.43,
     "acwr_interpretation": "undertraining",
     "monotony": 0.49,
     "monotony_interpretation": "normal",
@@ -78,7 +78,7 @@
     "stress_tolerance": 0.6,
     "load_recovery_ratio": null,
     "tss_7d_total": 63.0,
-    "tss_28d_total": 679.0,
+    "tss_28d_total": 588.0,
     "zone_distribution_7d": {
       "z1_hours": 0.47,
       "z2_hours": 1.01,
@@ -98,10 +98,10 @@
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
-        "2026-04-21",
         "2026-04-23",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28"
       ],
       "completed_dates": [
         "2026-04-25"
@@ -109,7 +109,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 7.38 positive",
+      "TSB 9.03 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Late Base / Build",
@@ -127,19 +127,19 @@
       "benchmark_percentage": "+0.0%",
       "seasonal_expected": false
     },
-    "eftp": 235.1,
-    "w_prime": 19698,
+    "eftp": 234.9,
+    "w_prime": 19678,
     "w_prime_kj": 19.7,
-    "p_max": 801,
+    "p_max": 800,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-04-27T23:37:35.959148",
+    "calculation_timestamp": "2026-04-28T01:21:27.660562",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
       "activities_7d": 3,
-      "activities_28d": 19,
+      "activities_28d": 18,
       "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 6,
@@ -286,21 +286,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-04-21",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-04-22",
       "weight_kg": null,
       "resting_hr": 50,
@@ -377,6 +362,21 @@
     },
     {
       "date": "2026-04-27",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-04-28",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
