@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 2.51,
-      "total_activities": 3,
-      "total_tss": 63
+      "total_training_hours": 2.8,
+      "total_activities": 4,
+      "total_tss": 68
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-02T14:14:04.700888",
+    "last_updated": "2026-05-02T15:05:36.534343",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,14 +19,20 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 2.51,
-    "total_activities": 3,
+    "total_duration_decimal_hours": 2.8,
+    "total_activities": 4,
     "by_activity_type": {
       "VirtualRide": {
         "duration_decimal_hours": 2.04,
         "count": 2,
         "tss": 49,
         "distance_km": 58.9
+      },
+      "Walk": {
+        "duration_decimal_hours": 0.29,
+        "count": 1,
+        "tss": 5,
+        "distance_km": 1.1
       },
       "Workout": {
         "duration_decimal_hours": 0.47,
@@ -38,10 +44,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 22.51,
-      "atl": 14.69,
-      "tsb": 7.82,
-      "ramp_rate": -2.72,
+      "ctl": 22.63,
+      "atl": 15.36,
+      "tsb": 7.27,
+      "ramp_rate": -2.6,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -70,23 +76,23 @@
     "rhr_baseline_28d": 52.2,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.45,
+    "acwr": 0.48,
     "acwr_interpretation": "undertraining",
-    "monotony": 0.49,
+    "monotony": 0.48,
     "monotony_interpretation": "normal",
-    "strain": 31.0,
-    "stress_tolerance": 0.6,
+    "strain": 33.0,
+    "stress_tolerance": 0.7,
     "load_recovery_ratio": null,
-    "tss_7d_total": 63.0,
-    "tss_28d_total": 563.0,
+    "tss_7d_total": 68.0,
+    "tss_28d_total": 568.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.46,
+      "z1_hours": 0.79,
       "z2_hours": 1.03,
       "z3_hours": 0.01,
       "z4_plus_hours": 0.0,
-      "total_hours": 1.5
+      "total_hours": 1.83
     },
-    "grey_zone_percentage": 0.8,
+    "grey_zone_percentage": 0.7,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
     "quality_intensity_percentage": 0.0,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
@@ -109,7 +115,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 7.82 positive",
+      "TSB 7.27 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Build / Early Race Season",
@@ -134,12 +140,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-05-02T14:14:04.700728",
+    "calculation_timestamp": "2026-05-02T15:05:36.534190",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
-      "activities_7d": 3,
-      "activities_28d": 17,
+      "activities_7d": 4,
+      "activities_28d": 18,
       "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 6,
@@ -150,6 +156,48 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-05-02T15:52:24",
+      "type": "Walk",
+      "name": "Training Session",
+      "duration_hours": 0.29,
+      "distance_km": 1.06,
+      "tss": 5,
+      "intensity_factor": 38.810772,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 97,
+      "max_hr": 116,
+      "avg_cadence": 45.85728,
+      "avg_speed": 3.2,
+      "max_speed": 6.0,
+      "avg_pace": null,
+      "avg_temp": 21.0,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 96,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": 21.200012,
+      "feel": null,
+      "rpe": 2,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 1197,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-05-02T09:12:57",
       "type": "VirtualRide",
       "name": "90m Endurance 70% FTP by LeCoach App",
@@ -200,7 +248,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-05-02T09:12:57",
       "type": "VirtualRide",
       "name": "Zwift - Endurance 70% FTP",
@@ -242,7 +290,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-04-27T17:12:10",
       "type": "Workout",
       "name": "Training Session",
@@ -475,9 +523,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 2.51,
-    "total_tss": 63,
-    "activities_count": 3,
+    "total_training_hours": 2.8,
+    "total_tss": 68,
+    "activities_count": 4,
     "avg_hrv": null,
     "avg_resting_hr": 52.2
   }
