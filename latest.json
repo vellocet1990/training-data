@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-19T23:57:24.374529",
+    "last_updated": "2026-05-20T03:32:24.164078",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -32,20 +32,20 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 15.1,
-      "atl": 6.05,
-      "tsb": 9.05,
-      "ramp_rate": -2.74,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 14.74,
+      "atl": 5.25,
+      "tsb": 9.49,
+      "ramp_rate": -2.67,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 243,
       "ftp_indoor": 243,
-      "eftp": 230.0,
+      "eftp": 229.8,
       "lthr": 165,
       "max_hr": 184,
-      "w_prime": 19269,
-      "w_prime_kj": 19.3,
+      "w_prime": 19250,
+      "w_prime_kj": 19.2,
       "p_max": 783,
       "vo2max": null
     },
@@ -59,9 +59,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 55.6,
+    "rhr_baseline_7d": 55.5,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 52.8,
+    "rhr_baseline_28d": 52.9,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.87,
@@ -92,15 +92,15 @@
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
-        "2026-05-13",
         "2026-05-15",
-        "2026-05-17"
+        "2026-05-17",
+        "2026-05-20"
       ],
       "completed_dates": []
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 9.05 positive",
+      "TSB 9.49 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Build / Early Race Season",
@@ -118,17 +118,17 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 230.0,
-    "w_prime": 19269,
-    "w_prime_kj": 19.3,
+    "eftp": 229.8,
+    "w_prime": 19250,
+    "w_prime_kj": 19.2,
     "p_max": 783,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-05-19T23:57:24.374376",
+    "calculation_timestamp": "2026-05-20T03:32:24.163913",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 4,
       "activities_7d": 1,
       "activities_28d": 8,
       "planned_workouts_7d": 3,
@@ -183,21 +183,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-05-13",
-      "weight_kg": null,
-      "resting_hr": 56,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-05-14",
       "weight_kg": null,
@@ -275,6 +260,21 @@
     },
     {
       "date": "2026-05-19",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-05-20",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
@@ -370,6 +370,15 @@
       "description": "-5m ramp 50-65% FTP 70% LTHR\n-80m 72% FTP 81% LTHR\n-5m 50% FTP 67% LTHR",
       "planned_tss": 74,
       "duration_hours": 0.0
+    },
+    {
+      "id": "event_10",
+      "date": "2026-06-10T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m 50% FTP 67% LTHR\n-1m 65% FTP 76% LTHR\n-1m 70% FTP 79% LTHR\n-1m 75% FTP 83% LTHR\n-1m 80% FTP 87% LTHR\n-1m 85% FTP 90% LTHR\n-1m 90% FTP 94% LTHR\n-1m 95% FTP 97% LTHR\n-1m 100% FTP 100% LTHR\n-1m 105% FTP 102% LTHR\n-1m 110% FTP 106% LTHR\n-1m 115% FTP 109% LTHR\n-1m 120% FTP 112% LTHR\n-1m 125% FTP 112% LTHR\n-1m 130% FTP 112% LTHR\n-1m 135% FTP 112% LTHR\n-1m 140% FTP 112% LTHR\n-1m 145% FTP 112% LTHR\n-1m 150% FTP 112% LTHR\n-1m 155% FTP 112% LTHR\n-1m 160% FTP 112% LTHR\n-1m 165% FTP 112% LTHR\n-1m 170% FTP 112% LTHR\n-1m 175% FTP 112% LTHR\n-1m 180% FTP 112% LTHR\n-1m 185% FTP 112% LTHR\n-5m 50% FTP 67% LTHR",
+      "planned_tss": 94,
+      "duration_hours": 0.0
     }
   ],
   "weekly_summary": {
@@ -377,6 +386,6 @@
     "total_tss": 38,
     "activities_count": 1,
     "avg_hrv": null,
-    "avg_resting_hr": 55.6
+    "avg_resting_hr": 55.5
   }
 }
