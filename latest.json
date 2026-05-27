@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-26T23:31:57.460353",
+    "last_updated": "2026-05-27T01:50:03.075552",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -25,21 +25,21 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 12.78,
-      "atl": 2.23,
+      "ctl": 12.48,
+      "atl": 1.93,
       "tsb": 10.55,
-      "ramp_rate": -2.32,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -2.26,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 243,
       "ftp_indoor": 243,
-      "eftp": 228.4,
+      "eftp": 228.2,
       "lthr": 165,
       "max_hr": 184,
-      "w_prime": 19134,
+      "w_prime": 19115,
       "w_prime_kj": 19.1,
-      "p_max": 778,
+      "p_max": 777,
       "vo2max": null
     },
     "current_metrics": {
@@ -54,7 +54,7 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": 53.5,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 53.2,
+    "rhr_baseline_28d": 53.3,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.0,
@@ -79,12 +79,15 @@
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": null,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": null,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 0,
+      "planned_days": 1,
       "completed_days": 0,
       "matched_days": 0,
-      "note": "No planned workouts in period"
+      "planned_dates": [
+        "2026-05-27"
+      ],
+      "completed_dates": []
     },
     "phase_detected": "Recovery",
     "phase_triggers": [
@@ -105,20 +108,20 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 228.4,
-    "w_prime": 19134,
+    "eftp": 228.2,
+    "w_prime": 19115,
     "w_prime_kj": 19.1,
-    "p_max": 778,
+    "p_max": 777,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-05-26T23:31:57.460219",
+    "calculation_timestamp": "2026-05-27T01:50:03.075402",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 2,
       "activities_7d": 0,
       "activities_28d": 5,
-      "planned_workouts_7d": 0,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 6,
         "outdoor": 19
@@ -127,21 +130,6 @@
   },
   "recent_activities": [],
   "wellness_data": [
-    {
-      "date": "2026-05-20",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-05-21",
       "weight_kg": null,
@@ -219,6 +207,21 @@
     },
     {
       "date": "2026-05-26",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-05-27",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
@@ -313,6 +316,15 @@
       "type": "WORKOUT",
       "description": "-50m 60% FTP 83% LTHR",
       "planned_tss": 30,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_10",
+      "date": "2026-06-17T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP 82% LTHR\n\n3x\n-30s 100% FTP 99% LTHR\n-30s 55% FTP 80% LTHR\n\n-5m 60% FTP 83% LTHR\n\n2x\n-12m 100% FTP 99% LTHR\n-5m 60% FTP 83% LTHR\n\n-10m 55% FTP 80% LTHR",
+      "planned_tss": 67,
       "duration_hours": 0.0
     }
   ],
