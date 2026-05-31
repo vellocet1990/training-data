@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-31T00:15:13.162838",
+    "last_updated": "2026-05-31T04:53:16.185854",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -25,10 +25,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 12.58,
-      "atl": 7.32,
-      "tsb": 5.26,
-      "ramp_rate": -0.82,
+      "ctl": 11.34,
+      "atl": 1.09,
+      "tsb": 10.25,
+      "ramp_rate": -2.06,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -91,10 +91,9 @@
       ],
       "completed_dates": []
     },
-    "phase_detected": "Taper",
+    "phase_detected": "Recovery",
     "phase_triggers": [
-      "TSB 5.26 positive",
-      "CTL stable/declining"
+      "TSB 10.25 > +10"
     ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -118,7 +117,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-05-31T00:15:13.162673",
+    "calculation_timestamp": "2026-05-31T04:53:16.185718",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
