@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 0.3,
-      "total_activities": 1,
-      "total_tss": 2
+      "total_training_hours": 1.14,
+      "total_activities": 2,
+      "total_tss": 32
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-14T10:14:55.084217",
+    "last_updated": "2026-06-14T12:16:16.471800",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,9 +19,15 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 0.3,
-    "total_activities": 1,
+    "total_duration_decimal_hours": 1.14,
+    "total_activities": 2,
     "by_activity_type": {
+      "VirtualRide": {
+        "duration_decimal_hours": 0.84,
+        "count": 1,
+        "tss": 30,
+        "distance_km": 24.5
+      },
       "Workout": {
         "duration_decimal_hours": 0.3,
         "count": 1,
@@ -32,11 +38,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 8.13,
-      "atl": 0.38,
-      "tsb": 7.75,
-      "ramp_rate": -1.47,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 8.83,
+      "atl": 4.37,
+      "tsb": 4.46,
+      "ramp_rate": -0.77,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 243,
@@ -64,21 +70,21 @@
     "rhr_baseline_28d": 55,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.2,
-    "acwr_interpretation": "undertraining",
-    "monotony": 0.38,
+    "acwr": 1.83,
+    "acwr_interpretation": "danger",
+    "monotony": 0.41,
     "monotony_interpretation": "normal",
-    "strain": 1.0,
-    "stress_tolerance": 0.0,
+    "strain": 13.0,
+    "stress_tolerance": 0.3,
     "load_recovery_ratio": null,
-    "tss_7d_total": 2.0,
-    "tss_28d_total": 40.0,
+    "tss_7d_total": 32.0,
+    "tss_28d_total": 70.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.3,
-      "z2_hours": 0.0,
+      "z1_hours": 0.31,
+      "z2_hours": 0.83,
       "z3_hours": 0.0,
       "z4_plus_hours": 0.0,
-      "total_hours": 0.3
+      "total_hours": 1.14
     },
     "grey_zone_percentage": 0.0,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
@@ -86,21 +92,23 @@
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 1.0,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": 0.0,
+    "consistency_index": 0.33,
     "consistency_details": {
       "planned_days": 3,
-      "completed_days": 0,
-      "matched_days": 0,
+      "completed_days": 1,
+      "matched_days": 1,
       "planned_dates": [
         "2026-06-10",
         "2026-06-12",
         "2026-06-14"
       ],
-      "completed_dates": []
+      "completed_dates": [
+        "2026-06-14"
+      ]
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 7.75 positive",
+      "TSB 4.46 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Build / Early Race Season",
@@ -125,12 +133,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-06-14T10:14:55.084089",
+    "calculation_timestamp": "2026-06-14T12:16:16.471676",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
-      "activities_7d": 1,
-      "activities_28d": 2,
+      "activities_7d": 2,
+      "activities_28d": 3,
       "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 6,
@@ -141,6 +149,57 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-06-14T12:24:34",
+      "type": "VirtualRide",
+      "name": "Easy Endurance by LeCoach App",
+      "duration_hours": 0.84,
+      "distance_km": 24.52,
+      "tss": 30,
+      "intensity_factor": 59.67078,
+      "avg_power": 144,
+      "normalized_power": 145,
+      "avg_hr": 127,
+      "max_hr": 140,
+      "avg_cadence": 85.72313,
+      "avg_speed": 29.1,
+      "max_speed": 47.1,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 436.9,
+      "calories": 417,
+      "carbs_used": 116,
+      "carbs_ingested": null,
+      "variability_index": 1.0069444,
+      "decoupling": 2.115691,
+      "elevation_m": 93.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 2461,
+          "z2_time": 564,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 34,
+          "z2_time": 2991,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-06-13T18:25:33",
       "type": "Workout",
       "name": "Training Session",
@@ -382,9 +441,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 0.3,
-    "total_tss": 2,
-    "activities_count": 1,
+    "total_training_hours": 1.14,
+    "total_tss": 32,
+    "activities_count": 2,
     "avg_hrv": null,
     "avg_resting_hr": 52.2
   }
