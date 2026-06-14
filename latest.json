@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-14T06:44:57.356854",
+    "last_updated": "2026-06-14T10:14:55.084217",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -32,11 +32,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 8.82,
-      "atl": 3.84,
-      "tsb": 4.98,
-      "ramp_rate": -0.78,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 8.13,
+      "atl": 0.38,
+      "tsb": 7.75,
+      "ramp_rate": -1.47,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 243,
@@ -51,7 +51,7 @@
     },
     "current_metrics": {
       "weight_kg": 86.4,
-      "resting_hr": 51,
+      "resting_hr": 52,
       "hrv": null,
       "sleep_score": null
     }
@@ -61,7 +61,7 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": 52.2,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 55.2,
+    "rhr_baseline_28d": 55,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.2,
@@ -94,13 +94,13 @@
       "planned_dates": [
         "2026-06-10",
         "2026-06-12",
-        "2026-06-13"
+        "2026-06-14"
       ],
       "completed_dates": []
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 4.98 positive",
+      "TSB 7.75 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Build / Early Race Season",
@@ -125,10 +125,10 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-06-14T06:44:57.356721",
+    "calculation_timestamp": "2026-06-14T10:14:55.084089",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 1,
       "activities_28d": 2,
       "planned_workouts_7d": 3,
@@ -261,10 +261,10 @@
     {
       "date": "2026-06-13",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 52,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
+      "sleep_hours": 4.02,
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -292,6 +292,15 @@
   "planned_workouts": [
     {
       "id": "event_1",
+      "date": "2026-06-14T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-50m 60% FTP 83% LTHR",
+      "planned_tss": 30,
+      "duration_hours": 0.0
+    },
+    {
+      "id": "event_2",
       "date": "2026-06-17T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -300,7 +309,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_2",
+      "id": "event_3",
       "date": "2026-06-19T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -309,7 +318,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_3",
+      "id": "event_4",
       "date": "2026-06-20T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -318,7 +327,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_4",
+      "id": "event_5",
       "date": "2026-06-24T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -327,7 +336,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_5",
+      "id": "event_6",
       "date": "2026-06-26T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -336,7 +345,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_6",
+      "id": "event_7",
       "date": "2026-06-27T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -345,7 +354,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_7",
+      "id": "event_8",
       "date": "2026-07-01T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -354,7 +363,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_8",
+      "id": "event_9",
       "date": "2026-07-03T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
@@ -363,7 +372,7 @@
       "duration_hours": 0.0
     },
     {
-      "id": "event_9",
+      "id": "event_10",
       "date": "2026-07-04T00:00:00",
       "name": "Planned Workout",
       "type": "WORKOUT",
