@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 1.25,
-      "total_activities": 1,
-      "total_tss": 11
+      "total_training_hours": 2.64,
+      "total_activities": 2,
+      "total_tss": 23
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-19T11:30:51.249212",
+    "last_updated": "2026-07-19T12:34:47.250772",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,13 +19,13 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 1.25,
-    "total_activities": 1,
+    "total_duration_decimal_hours": 2.64,
+    "total_activities": 2,
     "by_activity_type": {
       "WeightTraining": {
-        "duration_decimal_hours": 1.25,
-        "count": 1,
-        "tss": 11,
+        "duration_decimal_hours": 2.64,
+        "count": 2,
+        "tss": 23,
         "distance_km": 0.0
       }
     }
@@ -33,8 +33,8 @@
   "current_status": {
     "fitness": {
       "ctl": 3.84,
-      "atl": 1.37,
-      "tsb": 2.47,
+      "atl": 2.97,
+      "tsb": 0.87,
       "ramp_rate": -0.7,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
@@ -64,21 +64,21 @@
     "rhr_baseline_28d": 56.6,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.57,
-    "acwr_interpretation": "undertraining",
-    "monotony": 0.38,
+    "acwr": 1.03,
+    "acwr_interpretation": "optimal",
+    "monotony": 0.58,
     "monotony_interpretation": "normal",
-    "strain": 4.0,
-    "stress_tolerance": 0.1,
+    "strain": 13.0,
+    "stress_tolerance": 0.2,
     "load_recovery_ratio": null,
-    "tss_7d_total": 11.0,
-    "tss_28d_total": 77.0,
+    "tss_7d_total": 23.0,
+    "tss_28d_total": 89.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.25,
+      "z1_hours": 2.63,
       "z2_hours": 0.0,
       "z3_hours": 0.0,
       "z4_plus_hours": 0.0,
-      "total_hours": 1.25
+      "total_hours": 2.63
     },
     "grey_zone_percentage": 0.0,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
@@ -95,7 +95,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 2.47 positive",
+      "TSB 0.87 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Peak Race Season",
@@ -120,12 +120,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-07-19T11:30:51.249066",
+    "calculation_timestamp": "2026-07-19T12:34:47.250618",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
-      "activities_7d": 1,
-      "activities_28d": 8,
+      "activities_7d": 2,
+      "activities_28d": 9,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 6,
@@ -136,6 +136,48 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-07-19T10:46:44",
+      "type": "WeightTraining",
+      "name": "Training Session",
+      "duration_hours": 1.39,
+      "distance_km": 0.0,
+      "tss": 12,
+      "intensity_factor": 29.509188,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 85,
+      "max_hr": 125,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 396,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 4964,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-07-13T18:35:33",
       "type": "WeightTraining",
       "name": "Training Session",
@@ -286,9 +328,9 @@
   ],
   "planned_workouts": [],
   "weekly_summary": {
-    "total_training_hours": 1.25,
-    "total_tss": 11,
-    "activities_count": 1,
+    "total_training_hours": 2.64,
+    "total_tss": 23,
+    "activities_count": 2,
     "avg_hrv": null,
     "avg_resting_hr": 55.6
   }
