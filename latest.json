@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 2.82,
-      "total_activities": 3,
+      "total_training_hours": 4.08,
+      "total_activities": 4,
       "total_tss": 49
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-09T11:42:45.099465",
+    "last_updated": "2026-08-09T12:02:54.025465",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,8 +19,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 2.82,
-    "total_activities": 3,
+    "total_duration_decimal_hours": 4.08,
+    "total_activities": 4,
     "by_activity_type": {
       "VirtualRide": {
         "duration_decimal_hours": 1.68,
@@ -29,8 +29,8 @@
         "distance_km": 38.4
       },
       "WeightTraining": {
-        "duration_decimal_hours": 1.14,
-        "count": 1,
+        "duration_decimal_hours": 2.4,
+        "count": 2,
         "tss": 14,
         "distance_km": 0.0
       }
@@ -130,12 +130,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-08-09T11:42:45.099319",
+    "calculation_timestamp": "2026-08-09T12:02:54.025302",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
-      "activities_7d": 3,
-      "activities_28d": 11,
+      "activities_7d": 4,
+      "activities_28d": 12,
       "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 6,
@@ -146,6 +146,38 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-08-09T12:43:03",
+      "type": "WeightTraining",
+      "name": "Training Session",
+      "duration_hours": 1.26,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 450,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_2",
       "date": "2026-08-06T20:53:11",
       "type": "VirtualRide",
       "name": "50m Endurance Re-Entry by LeCoach App",
@@ -196,7 +228,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-08-06T20:53:11",
       "type": "VirtualRide",
       "name": "Rad indoor",
@@ -238,7 +270,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-08-03T20:11:45",
       "type": "WeightTraining",
       "name": "Training Session",
@@ -389,9 +421,9 @@
   ],
   "planned_workouts": [],
   "weekly_summary": {
-    "total_training_hours": 2.82,
+    "total_training_hours": 4.08,
     "total_tss": 49,
-    "activities_count": 3,
+    "activities_count": 4,
     "avg_hrv": null,
     "avg_resting_hr": 54.2
   }
