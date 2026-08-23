@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-23T17:55:24.188320",
+    "last_updated": "2026-08-23T18:18:26.644780",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -47,8 +47,8 @@
       "ctl": 8.18,
       "atl": 19.87,
       "tsb": -11.69,
-      "ramp_rate": 0.51,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": 0.91,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "ftp_outdoor": 243,
@@ -98,13 +98,14 @@
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 1.0,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "consistency_index": 1.0,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 2,
       "matched_days": 1,
       "planned_dates": [
-        "2026-08-20"
+        "2026-08-20",
+        "2026-08-23"
       ],
       "completed_dates": [
         "2026-08-20",
@@ -137,13 +138,13 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-08-23T17:55:24.188204",
+    "calculation_timestamp": "2026-08-23T18:18:26.644638",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 2,
       "activities_7d": 4,
       "activities_28d": 14,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 6,
         "outdoor": 19
@@ -436,7 +437,17 @@
       "vo2max": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": "event_1",
+      "date": "2026-08-23T00:00:00",
+      "name": "Planned Workout",
+      "type": "WORKOUT",
+      "description": "-5m ramp 50-65% FTP 82% LTHR\n-50m 65% FTP 85% LTHR\n-5m 55% FTP 80% LTHR",
+      "planned_tss": 40,
+      "duration_hours": 0.0
+    }
+  ],
   "weekly_summary": {
     "total_training_hours": 6.79,
     "total_tss": 123,
