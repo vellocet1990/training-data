@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-23T23:56:56.880281",
+    "last_updated": "2026-08-24T01:08:11.108801",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -44,10 +44,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 9.12,
-      "atl": 25.19,
-      "tsb": -16.07,
-      "ramp_rate": 1.46,
+      "ctl": 8.9,
+      "atl": 21.84,
+      "tsb": -12.94,
+      "ramp_rate": 1.42,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -73,7 +73,7 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": 52.5,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 54.3,
+    "rhr_baseline_28d": 54.4,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.29,
@@ -139,7 +139,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-08-23T23:56:56.880139",
+    "calculation_timestamp": "2026-08-24T01:08:11.108642",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 2,
@@ -384,21 +384,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-08-17",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-08-18",
       "weight_kg": null,
       "resting_hr": null,
@@ -487,19 +472,24 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
-    }
-  ],
-  "planned_workouts": [
+    },
     {
-      "id": "event_1",
-      "date": "2026-08-23T00:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "-5m ramp 50-65% FTP 82% LTHR\n-50m 65% FTP 85% LTHR\n-5m 55% FTP 80% LTHR",
-      "planned_tss": 40,
-      "duration_hours": 0.0
+      "date": "2026-08-24",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
+  "planned_workouts": [],
   "weekly_summary": {
     "total_training_hours": 7.8,
     "total_tss": 163,
