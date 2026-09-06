@@ -4,14 +4,14 @@
     "data_period": "Last 7 days (including today)",
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "quick_stats": {
-      "total_training_hours": 4.67,
-      "total_activities": 4,
-      "total_tss": 59
+      "total_training_hours": 5.76,
+      "total_activities": 5,
+      "total_tss": 88
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-06T15:45:26.164720",
+    "last_updated": "2026-09-06T17:55:23.607968",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -19,9 +19,15 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 4.67,
-    "total_activities": 4,
+    "total_duration_decimal_hours": 5.76,
+    "total_activities": 5,
     "by_activity_type": {
+      "Pickleball": {
+        "duration_decimal_hours": 1.09,
+        "count": 1,
+        "tss": 29,
+        "distance_km": 0.0
+      },
       "WeightTraining": {
         "duration_decimal_hours": 2.34,
         "count": 2,
@@ -38,10 +44,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 8.39,
-      "atl": 13.19,
-      "tsb": -4.8,
-      "ramp_rate": -1.52,
+      "ctl": 9.07,
+      "atl": 17.05,
+      "tsb": -7.98,
+      "ramp_rate": -0.84,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -70,25 +76,25 @@
     "rhr_baseline_28d": 53.4,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.4,
+    "acwr": 0.57,
     "acwr_interpretation": "undertraining",
-    "monotony": 0.58,
+    "monotony": 0.8,
     "monotony_interpretation": "normal",
-    "strain": 34.0,
-    "stress_tolerance": 0.6,
+    "strain": 70.0,
+    "stress_tolerance": 0.9,
     "load_recovery_ratio": null,
-    "tss_7d_total": 59.0,
-    "tss_28d_total": 594.0,
+    "tss_7d_total": 88.0,
+    "tss_28d_total": 623.0,
     "zone_distribution_7d": {
-      "z1_hours": 4.62,
-      "z2_hours": 0.0,
-      "z3_hours": 0.0,
-      "z4_plus_hours": 0.0,
-      "total_hours": 4.62
+      "z1_hours": 5.66,
+      "z2_hours": 0.03,
+      "z3_hours": 0.01,
+      "z4_plus_hours": 0.01,
+      "total_hours": 5.7
     },
-    "grey_zone_percentage": 0.0,
+    "grey_zone_percentage": 0.1,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 0.0,
+    "quality_intensity_percentage": 0.2,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 1.0,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
@@ -125,12 +131,12 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-09-06T15:45:26.164578",
+    "calculation_timestamp": "2026-09-06T17:55:23.607835",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
-      "activities_7d": 4,
-      "activities_28d": 16,
+      "activities_7d": 5,
+      "activities_28d": 17,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 6,
@@ -141,6 +147,48 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-09-06T17:53:31",
+      "type": "Pickleball",
+      "name": "Training Session",
+      "duration_hours": 1.09,
+      "distance_km": 0.0,
+      "tss": 29,
+      "intensity_factor": 51.66618,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 112,
+      "max_hr": 164,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": 24.0,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 445,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 3745,
+          "z2_time": 103,
+          "z3_time": 27,
+          "z4_time": 38,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
+    {
+      "id": "activity_2",
       "date": "2026-09-04T15:10:40",
       "type": "Workout",
       "name": "Training Session",
@@ -182,7 +230,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-09-04T15:10:35",
       "type": "WeightTraining",
       "name": "Training Session",
@@ -224,7 +272,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-08-31T19:36:24",
       "type": "Workout",
       "name": "Training Session",
@@ -266,7 +314,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-08-31T19:36:23",
       "type": "WeightTraining",
       "name": "Training Session",
@@ -417,9 +465,9 @@
   ],
   "planned_workouts": [],
   "weekly_summary": {
-    "total_training_hours": 4.67,
-    "total_tss": 59,
-    "activities_count": 4,
+    "total_training_hours": 5.76,
+    "total_tss": 88,
+    "activities_count": 5,
     "avg_hrv": null,
     "avg_resting_hr": 54.4
   }
