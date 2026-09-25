@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-24T22:35:28.663952",
+    "last_updated": "2026-09-25T00:49:08.341889",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -38,10 +38,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 9.42,
-      "atl": 19.27,
-      "tsb": -9.85,
-      "ramp_rate": 2.44,
+      "ctl": 9.2,
+      "atl": 16.71,
+      "tsb": -7.51,
+      "ramp_rate": 2.38,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -65,7 +65,7 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 50.5,
+    "rhr_baseline_7d": 50.4,
     "hrv_baseline_28d": null,
     "rhr_baseline_28d": 51.9,
     "latest_hrv": null,
@@ -125,10 +125,10 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-09-24T22:35:28.663822",
+    "calculation_timestamp": "2026-09-25T00:49:08.341781",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 5,
       "activities_7d": 2,
       "activities_28d": 13,
       "planned_workouts_7d": 0,
@@ -226,21 +226,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-09-18",
-      "weight_kg": 89.0,
-      "resting_hr": 51,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-09-19",
       "weight_kg": null,
       "resting_hr": 61,
@@ -329,6 +314,21 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-09-25",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [],
@@ -337,6 +337,6 @@
     "total_tss": 199,
     "activities_count": 2,
     "avg_hrv": null,
-    "avg_resting_hr": 50.5
+    "avg_resting_hr": 50.4
   }
 }
