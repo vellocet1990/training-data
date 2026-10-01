@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-30T20:48:19.511506",
+    "last_updated": "2026-10-01T00:17:55.470494",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -44,10 +44,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 9.82,
-      "atl": 17.65,
-      "tsb": -7.83,
-      "ramp_rate": 0.18,
+      "ctl": 9.59,
+      "atl": 15.3,
+      "tsb": -5.71,
+      "ramp_rate": 0.17,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -73,7 +73,7 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": 52.7,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.6,
+    "rhr_baseline_28d": 51.0,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.88,
@@ -137,7 +137,7 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-09-30T20:48:19.511379",
+    "calculation_timestamp": "2026-10-01T00:17:55.470344",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 3,
@@ -289,21 +289,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-09-24",
-      "weight_kg": 87.9,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-09-25",
       "weight_kg": 88.0,
       "resting_hr": null,
@@ -380,6 +365,21 @@
     },
     {
       "date": "2026-09-30",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-10-01",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
