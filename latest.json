@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-09T23:45:04.814060",
+    "last_updated": "2026-10-10T02:47:19.576249",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -38,9 +38,9 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 9.6,
-      "atl": 13.21,
-      "tsb": -3.61,
+      "ctl": 9.37,
+      "atl": 11.45,
+      "tsb": -2.08,
       "ramp_rate": 0.23,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
@@ -65,9 +65,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 53.8,
+    "rhr_baseline_7d": 54.6,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.2,
+    "rhr_baseline_28d": 51.4,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.64,
@@ -130,10 +130,10 @@
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-10-09T23:45:04.813927",
+    "calculation_timestamp": "2026-10-10T02:47:19.576117",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 5,
       "activities_7d": 2,
       "activities_28d": 10,
       "planned_workouts_7d": 1,
@@ -240,21 +240,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-10-03",
-      "weight_kg": null,
-      "resting_hr": 50,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-10-04",
       "weight_kg": null,
       "resting_hr": 53,
@@ -343,24 +328,29 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
-    }
-  ],
-  "planned_workouts": [
+    },
     {
-      "id": "event_1",
-      "date": "2026-10-09T00:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "-4m40s ramp 50-70% FTP 83% LTHR\n-20s 100% FTP 99% LTHR\n\n10x\n-30s 111% FTP 106% LTHR\n-15s 45% FTP 76% LTHR\n\n-4m 45% FTP 76% LTHR\n\n10x\n-30s 111% FTP 106% LTHR\n-15s 45% FTP 76% LTHR\n\n-6m 45% FTP 76% LTHR",
-      "planned_tss": 31,
-      "duration_hours": 0.0
+      "date": "2026-10-10",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
+  "planned_workouts": [],
   "weekly_summary": {
     "total_training_hours": 2.06,
     "total_tss": 73,
     "activities_count": 2,
     "avg_hrv": null,
-    "avg_resting_hr": 53.8
+    "avg_resting_hr": 54.6
   }
 }
