@@ -11,7 +11,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-15T21:19:03.280665",
+    "last_updated": "2026-11-16T01:13:59.328932",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.2.0"
@@ -32,19 +32,19 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 6.52,
-      "atl": 4.81,
-      "tsb": 1.71,
+      "ctl": 6.37,
+      "atl": 4.17,
+      "tsb": 2.2,
       "ramp_rate": -0.29,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 243,
       "ftp_indoor": 243,
-      "eftp": 202.1,
+      "eftp": 201.9,
       "lthr": 165,
       "max_hr": 184,
-      "w_prime": 16936,
+      "w_prime": 16919,
       "w_prime_kj": 16.9,
       "p_max": 688,
       "vo2max": null
@@ -59,20 +59,20 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 53.5,
+    "rhr_baseline_7d": 53,
     "hrv_baseline_28d": null,
     "rhr_baseline_28d": 54.0,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.74,
-    "acwr_interpretation": "undertraining",
+    "acwr": 0.97,
+    "acwr_interpretation": "optimal",
     "monotony": 0.38,
     "monotony_interpretation": "normal",
     "strain": 12.0,
     "stress_tolerance": 0.3,
     "load_recovery_ratio": null,
     "tss_7d_total": 32.0,
-    "tss_28d_total": 172.0,
+    "tss_28d_total": 132.0,
     "zone_distribution_7d": {
       "z1_hours": 0.22,
       "z2_hours": 0.14,
@@ -100,7 +100,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 1.71 positive",
+      "TSB 2.2 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Off-season / Transition",
@@ -118,19 +118,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 202.1,
-    "w_prime": 16936,
+    "eftp": 201.9,
+    "w_prime": 16919,
     "w_prime_kj": 16.9,
     "p_max": 688,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
     "sleep_score": null,
-    "calculation_timestamp": "2026-11-15T21:19:03.280573",
+    "calculation_timestamp": "2026-11-16T01:13:59.328819",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 4,
+      "rhr_data_points": 3,
       "activities_7d": 1,
-      "activities_28d": 3,
+      "activities_28d": 2,
       "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 6,
@@ -192,21 +192,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-11-09",
-      "weight_kg": null,
-      "resting_hr": 55,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-11-10",
       "weight_kg": null,
@@ -296,24 +281,29 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
-    }
-  ],
-  "planned_workouts": [
+    },
     {
-      "id": "event_1",
-      "date": "2026-11-15T00:00:00",
-      "name": "Planned Workout",
-      "type": "WORKOUT",
-      "description": "-7m 60% FTP 83% LTHR\n\n10x\n-30s 111% FTP 106% LTHR\n-15s 50% FTP 78% LTHR\n\n-4m 50% FTP 78% LTHR\n\n10x\n-30s 111% FTP 106% LTHR\n-15s 50% FTP 78% LTHR\n\n-5m 45% FTP 76% LTHR",
-      "planned_tss": 32,
-      "duration_hours": 0.0
+      "date": "2026-11-16",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
+  "planned_workouts": [],
   "weekly_summary": {
     "total_training_hours": 0.52,
     "total_tss": 32,
     "activities_count": 1,
     "avg_hrv": null,
-    "avg_resting_hr": 53.5
+    "avg_resting_hr": 53.0
   }
 }
